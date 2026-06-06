@@ -4,17 +4,17 @@ import About from './About.jsx';
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
-function App(){
-    return(
+function App() {
+    return (
         <>
-        <Navbar/>
-        <Home/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contactme/>
+            <Navbar />
+            <Home />
+            <About />
+            <Skills />
+            <Projects />
+            <Contactme />
         </>
-     
+
 
 
     );
