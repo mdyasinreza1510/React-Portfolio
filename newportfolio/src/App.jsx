@@ -1,22 +1,44 @@
 import Navbar from './Navbar.jsx'
-import Home from './Home.jsx'
 import About from './About.jsx';
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
+import LightRays from './Components/LightRays.jsx';
+
 function App() {
-    return (
-        <>
-            <Navbar />
-            <Home />
-            <About />
-            <Skills />
-            <Projects />
-            <Contactme />
-        </>
+
+  return (
+    <>
+      <Navbar />
+
+      <div id="home" style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <LightRays
+          raysOrigin="top-center"
+          raysColor="#ffffff"
+          raysSpeed={1}
+          lightSpread={0.5}
+          rayLength={3}
+          followMouse={true}
+          mouseInfluence={0.1}
+          noiseAmount={0}
+          distortion={0}
+          className="custom-rays"
+          pulsating={false}
+          fadeDistance={1}
+          saturation={1}
+        />
+        
+          
+      </div>
+
+      <About />
+      <Skills />
+      <Projects />
+      <Contactme />
+    </>
 
 
 
-    );
+  );
 }
 export default App
