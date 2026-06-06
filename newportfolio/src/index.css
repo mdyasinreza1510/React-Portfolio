@@ -8,7 +8,7 @@
 
 .navbar {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 15px;
   margin-left: 21%;
   margin-top: 30px;
   border-radius: 25px;
@@ -30,7 +30,6 @@
 }
 
 .link_container {
-  margin-right: 2.5rem;
 
   width: 500px;
   display: flex;
@@ -56,34 +55,62 @@ section {
 }
 
 #home {
+  position: relative;
+  margin: 0;
+  padding: 0;
   width: 100%;
   min-height: 100vh;
   color: white;
-   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  background-color: black;
+  /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
-.hero-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    color: white;
-    text-align: center;
+
+.hero-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  background-color: red;
+  width: 100%;
+  color: white;
+  text-align: center;
+
 }
 
-.hero-content h1{
-    font-size: 4rem;
-    margin-bottom: 10px;
+.div1 {
+  background-color: blue;
+  grid-column: span 2 / span 2;
 }
 
-.hero-content p{
-    font-size: 1.3rem;
+.div2 {
+  background-color: blue;
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
+
+.div3 {
+  background-color: blue;
+  grid-column: span 2 / span 2;
+  grid-row: span 5 / span 5;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.hero-content p {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  margin-bottom: 10px;
+
+}
+
+
 #home h1 {
   color: white;
   font-size: 3.5rem;
@@ -117,8 +144,7 @@ section {
 /*______________________________________________________________ ABOUT __________________________________*/
 #about {
   box-sizing: border-box;
-
-  border-top: 2px solid #334155;
+  background-color: #1e293b;
   display: flex;
   flex-direction: column;
   justify-content: center;

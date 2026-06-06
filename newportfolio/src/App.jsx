@@ -4,6 +4,8 @@ import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
 import LightRays from './Components/LightRays.jsx';
+import heroimg from './assets/heroimg.png';
+import './index.css'
 
 function App() {
 
@@ -16,7 +18,7 @@ function App() {
           raysOrigin="top-left"
           raysColor="#ffffff"
           raysSpeed={1}
-          lightSpread={0.7}
+          lightSpread={0.5}
           rayLength={3}
           followMouse={true}
           mouseInfluence={0.1}
@@ -27,11 +29,11 @@ function App() {
           fadeDistance={1}
           saturation={1}
         />
-              <LightRays
+        <LightRays
           raysOrigin="top-right"
           raysColor="#ffffff"
           raysSpeed={1}
-          lightSpread={0.7}
+          lightSpread={0.5}
           rayLength={3}
           followMouse={true}
           mouseInfluence={0.1}
@@ -43,12 +45,15 @@ function App() {
           saturation={1}
         />
 
-     
-        
-           <div className="hero-content">
-    <h1>MD YASIN REZA</h1>
-    <p>Frontend Developer | Programmer | Learner</p>
-  </div>
+
+
+
+<div class="hero-content">
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+</div>
+    
       </div>
 
       <About />
