@@ -9,13 +9,13 @@
 .navbar {
   box-sizing: border-box;
   padding: 20px;
-  margin-left: 10%;
-  margin-top: 20px;
+  margin-left: 21%;
+  margin-top: 30px;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.221);
+  background-color: rgba(255, 255, 255, 0.225);
   backdrop-filter: blur(5px);
   height: 4rem;
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,14 +57,33 @@ section {
 
 #home {
   width: 100%;
+  min-height: 100vh;
   color: white;
-  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+    text-align: center;
 }
 
+.hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p{
+    font-size: 1.3rem;
+}
 #home h1 {
   color: white;
   font-size: 3.5rem;
