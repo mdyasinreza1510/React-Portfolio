@@ -49,9 +49,7 @@ function App() {
 
 
 <div class="hero-content">
-    <div class="div1">1</div>
-    <div class="div2">2</div>
-    <div class="div3">3</div>
+  
 </div>
     
       </div>
