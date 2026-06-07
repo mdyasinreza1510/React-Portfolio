@@ -49,7 +49,8 @@ function App() {
 
 
 <div class="hero-content">
-  
+  <div className="mytext">1</div>
+  <div className="mainimg">2</div>
 </div>
     
       </div>
