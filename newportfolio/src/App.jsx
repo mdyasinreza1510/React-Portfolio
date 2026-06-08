@@ -5,6 +5,7 @@ import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
 import LightRays from './Components/LightRays.jsx';
 import heroimg from './assets/hrimage.png';
+import ShinyText from './Components/ShinyText.jsx';
 import './index.css'
 
 function App() {
@@ -14,25 +15,11 @@ function App() {
       <Navbar />
 
       <div id="home" style={{ width: '100%', height: '100vh', position: 'relative' }}>
-        <LightRays
-          raysOrigin="top-left"
-          raysColor="#ffffff"
-          raysSpeed={1}
-          lightSpread={0.5}
-          rayLength={3}
-          followMouse={true}
-          mouseInfluence={0.1}
-          noiseAmount={0}
-          distortion={0}
-          className="custom-rays"
-          pulsating={false}
-          fadeDistance={1}
-          saturation={1}
-        />
+
         <LightRays
           raysOrigin="top-right"
           raysColor="#ffffff"
-          raysSpeed={1}
+          raysSpeed={0.2}
           lightSpread={0.5}
           rayLength={3}
           followMouse={true}
@@ -48,13 +35,16 @@ function App() {
 
 
 
-<div class="hero-content">
-  <div className="mytext"></div>
-  <div className="mainimg">
-    <img src={heroimg} alt="pfp" />
-  </div>
-</div>
-    
+        <div class="hero-content">
+          <div className="mytext">
+            <div className="myname"><ShinyText text="MD YASIN REZA" /></div>
+            <div className="devtext"><p>Web Developer</p></div>
+          </div>
+          <div className="mainimg">
+            <img src={heroimg} alt="pfp" />
+          </div>
+        </div>
+
       </div>
 
       <About />
