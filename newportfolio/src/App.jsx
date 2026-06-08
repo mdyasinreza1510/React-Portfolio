@@ -4,7 +4,7 @@ import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
 import LightRays from './Components/LightRays.jsx';
-import heroimg from './assets/heroimg.png';
+import heroimg from './assets/hrimage.png';
 import './index.css'
 
 function App() {
@@ -49,8 +49,10 @@ function App() {
 
 
 <div class="hero-content">
-  <div className="mytext">1</div>
-  <div className="mainimg">2</div>
+  <div className="mytext"></div>
+  <div className="mainimg">
+    <img src={heroimg} alt="pfp" />
+  </div>
 </div>
     
       </div>

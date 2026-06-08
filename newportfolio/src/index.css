@@ -68,23 +68,31 @@ section {
 }
 
 .hero-content {
-  display: grid;
+  display: flex;
+  justify-content: center;
+
   height: 100%;
   position: absolute;
   top: 15%;
-  background-color: red;
+
   width: 100%;
   color: white;
   text-align: center;
 
 }
-.mytext{
-  background-color: blue;
-}
-.mainimg{
-  background-color: pink;
-}
 
+.mytext {
+  background-color: blue;
+  width: 40%;
+}
+.mainimg {
+background-color: pink;
+  width: 60%;
+}
+.mainimg img{
+  height: 80%;
+  posi
+}
 
 
 
