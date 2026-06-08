@@ -86,12 +86,13 @@ section {
   width: 40%;
 }
 .mainimg {
-background-color: pink;
+
   width: 60%;
 }
 .mainimg img{
-  height: 80%;
-  posi
+
+  position: absolute;
+  right: 0.1%;
 }
 
 
