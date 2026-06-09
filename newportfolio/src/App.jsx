@@ -37,7 +37,8 @@ function App() {
 
         <div class="hero-content">
           <div className="mytext">
-            <div className="myname"><ShinyText text="MD YASIN REZA" /></div>
+            <div className="myname"><ShinyText text="MD YASIN REZA"
+            className='ogname' /></div>
             <div className="devtext"><p>Web Developer</p></div>
           </div>
           <div className="mainimg">

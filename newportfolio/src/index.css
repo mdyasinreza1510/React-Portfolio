@@ -82,8 +82,10 @@ section {
 }
 
 .mytext {
+  display: inline-block;
   background-color: green;
   width: 50%;
+  
 }
 
 .mainimg {
@@ -105,6 +107,9 @@ section {
   background-color: blue;
   height: 6rem;
   
+}
+.nametext{
+font-size: 100px;
 }
 
 .devtext {
