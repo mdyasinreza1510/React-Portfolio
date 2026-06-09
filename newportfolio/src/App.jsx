@@ -5,6 +5,7 @@ import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
 import LightRays from './Components/LightRays.jsx';
 import heroimg from './assets/hrimage.png';
+import SideRays from './Components/SideRays.jsx';
 import ShinyText from './Components/ShinyText.jsx';
 import './index.css'
 
@@ -14,32 +15,34 @@ function App() {
     <>
       <Navbar />
 
-      <div id="home" style={{ width: '100%', height: '100vh', position: 'relative' }}>
 
-        <LightRays
-          raysOrigin="top-right"
-          raysColor="#ffffff"
-          raysSpeed={0.2}
-          lightSpread={0.5}
-          rayLength={3}
-          followMouse={true}
-          mouseInfluence={0.1}
-          noiseAmount={0}
-          distortion={0}
-          className="custom-rays"
-          pulsating={false}
-          fadeDistance={1}
-          saturation={1}
-        />
+<div id='home' style={{ width: '100%', height: '100vh', position: 'relative' }}>
+  <SideRays
+    speed={2.5}
+    rayColor1="#EAB308"
+    rayColor2="#96c8ff"
+    intensity={2}
+    spread={2}
+    origin="top-right"
+    tilt={0}
+    saturation={1.5}
+    blend={0.75}
+    falloff={1.6}
+    opacity={1}
+  />
 
 
 
 
-        <div class="hero-content">
+        <div className="hero-content">
           <div className="mytext">
+
             <div className="myname"><ShinyText text="MD YASIN REZA"
-            className='ogname' /></div>
-            <div className="devtext"><p>Web Developer</p></div>
+              className='ogname' color='#93B1A6' speed={2}/></div>
+
+            <div className="dev-title"><ShinyText text="Web Developer |Programmer |Learner"
+            className='devtext' color='#93B1A6'speed={2.2} /></div>
+
           </div>
           <div className="mainimg">
             <img src={heroimg} alt="pfp" />

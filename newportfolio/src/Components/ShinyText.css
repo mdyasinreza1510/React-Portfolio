@@ -4,5 +4,10 @@
     font-weight: bold;
 }
 .ogname{
-    font-size: 70px;
+    margin-left: 20px;
+    font-size: 60px;
+}
+.devtext{
+    margin: 5px 0 0 20px;
+    font-size: 30px;
 }
