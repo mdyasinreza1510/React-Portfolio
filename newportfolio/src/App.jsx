@@ -6,14 +6,10 @@ import Contactme from './Contactme.jsx';
 import heroimg from './assets/hrimage.png';
 import SideRays from './Components/SideRays.jsx';
 import ShinyText from './Components/ShinyText.jsx';
-import SplitText from "./Components/SplitText";
-
+import TextType from './Components/TextType.jsx';
 
 function App() {
 
-  const handleAnimationComplete = () => {
-  console.log('All letters have animated!');
-};
 
   return (
     <>
@@ -48,11 +44,24 @@ function App() {
               className='devtext' color='#93B1A6' speed={2.2} /></div>
 
             <div className="bio">
-            
 
-              
+
+              <TextType
+                text={["Hi, I’m Md Yasin Reza, a Computer Science Engineering student at Asansol Engineering College I’m passionate about building clean, user-friendly web experiences and continuously learning new technologies in the field of web development. Beyond coding, I’m a fitness enthusiast who enjoys pushing limits both in the gym and on the field. I actively follow and participate in sports and esports, finding excitement in both physical and digital arenas. These hobbies keep me disciplined, competitive, and motivated....Whether it's developing a responsive website or strategizing in an esports match, I love challenges that help me. Let’s connect and build something awesome!"]}
+                typingSpeed={20}
+                pauseDuration={1500}
+                showCursor
+                cursorCharacter="_"
+               
+                deletingSpeed={0}
+                variableSpeedEnabled={false}
+                variableSpeedMin={60}
+                variableSpeedMax={120}
+                cursorBlinkDuration={0.5}
+                loop={false}
+              />
             </div>
-            
+
           </div>
           <div className="mainimg">
             <img src={heroimg} alt="pfp" />
@@ -61,7 +70,7 @@ function App() {
 
       </div>
 
-      <About />
+
       <Skills />
       <Projects />
       <Contactme />
