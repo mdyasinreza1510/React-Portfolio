@@ -82,10 +82,13 @@ section {
 }
 
 .mytext {
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   width: 50%;
-  
+  background-color: blue;
+
 }
 
 .mainimg {
@@ -104,25 +107,17 @@ section {
 }
 
 .myname {
- margin: 20% 0 0 5%;
+  margin: 20% 0 0 5%;
   text-align: start;
-/* background-color: blue; */
+  /* background-color: blue; */
   height: 4.6rem;
-  
+
 }
 
-.dev-title{
+.dev-title {
   /* background-color: pink; */
-   text-align: start;
-   margin: 0 0 0 5%;
-}
-#home h1 {
-  color: white;
-  font-size: 3.5rem;
-  opacity: 0;
-  transform: translateX(-100px);
-  /* start 50px left */
-  animation: fadeSlideIn 1.5s ease-out forwards;
+  text-align: start;
+  margin: 0 0 0 5%;
 }
 
 @keyframes fadeSlideIn {
@@ -132,18 +127,23 @@ section {
   }
 }
 
-#home p {
-  opacity: 0;
-  transform: translateX(100px);
-  /* start 50px left */
-  animation: FadeSlideIn 1.5s ease-out forwards;
-}
 
 @keyframes FadeSlideIn {
   to {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.bio {
+  box-sizing: border-box;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
 }
 
 /*______________________________________________________________ ABOUT __________________________________*/
