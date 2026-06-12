@@ -11,9 +11,59 @@ function Skills() {
 
 
                         <div className="skill_box">
-                            <div className="skill"></div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>HTML</span> <span>90%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "90%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>CSS</span> <span>75%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "75%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>JS</span> <span>60%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "60%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>C</span> <span>70%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "70%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>C++</span> <span>75%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "75%" }}></div>
+                                </div>
+                            </div>
+                                                        <div className="skill">
+                                <div className="spans">
+                                    <span>PYTHON</span> <span>40%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar"style={{"--my-width":"40%"}}></div>
+                                </div>
+                            </div>
 
-                            
+
+
+
+
                         </div>
                     </div>
                     <div className="skill_container_out">
