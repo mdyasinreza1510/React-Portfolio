@@ -51,12 +51,12 @@ function Skills() {
                                     <div className="bar" style={{ "--my-width": "75%" }}></div>
                                 </div>
                             </div>
-                                                        <div className="skill">
+                            <div className="skill">
                                 <div className="spans">
                                     <span>PYTHON</span> <span>40%</span>
                                 </div>
                                 <div className="bar-box">
-                                    <div className="bar"style={{"--my-width":"40%"}}></div>
+                                    <div className="bar" style={{ "--my-width": "40%" }}></div>
                                 </div>
                             </div>
 
@@ -70,13 +70,33 @@ function Skills() {
                         <div className="heading"><h3>FRAMEWORKS</h3></div>
 
                         <div className="skill_box">
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>REACT</span> <span>52%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "52%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>TAILWIND CSS</span> <span>27%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "27%" }}></div>
+                                </div>
+                            </div>
+                            <div className="skill">
+                                <div className="spans">
+                                    <span>EXPRESS</span> <span>10%</span>
+                                </div>
+                                <div className="bar-box">
+                                    <div className="bar" style={{ "--my-width": "10%" }}></div>
+                                </div>
+                            </div>
 
-                            <div className="skill">TAILWIND</div>
-                            <div className="skill">EXPRESS.JS</div>
-                            <div className="skill">VUE.JS</div>
-                            <div className="skill">REACT.JS</div>
-                            <div className="skill">ANGULAR</div>
-                            <div className="skill">DJANGO</div>
+
+
                         </div>
 
                     </div>
