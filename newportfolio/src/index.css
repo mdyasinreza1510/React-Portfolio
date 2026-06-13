@@ -300,11 +300,14 @@ section {
 
 .skill_container_out .heading {
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   color: #38bdf8;
   text-align: center;
   text-underline-offset: 7px;
   text-decoration: underline;
+
+
+
 }
 
 .skill {
@@ -332,8 +335,16 @@ section {
 
 
 
-}
 
+}
+@keyframes appear {
+  
+  to{
+  opacity: 1;
+  transform: translateY(0px);
+
+  }
+}
 .bar-box {
   background-color: BLACK;
   height: 8px;
@@ -347,7 +358,7 @@ background: linear-gradient(44deg,rgba(207, 12, 12, 1) 0%, rgba(202, 204, 59, 1)
   width: 0;
   border-radius: 10px;
   animation: fill 2s both;
-  animation-timeline: view();
+
   transition: all 0.3s ease;
 
 }
