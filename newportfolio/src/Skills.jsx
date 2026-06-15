@@ -63,11 +63,13 @@ function Skills() {
 
 
 
-
+{/* adding just for commits */}
                         </div>
                     </div>
                     <div className="skill_container_out">
                         <div className="heading"><h3>FRAMEWORKS</h3></div>
+
+                        
 
                         <div className="skill_box">
                             <div className="skill">
