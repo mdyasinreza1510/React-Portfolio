@@ -65,6 +65,7 @@ function Skills() {
 
 {/* adding just for commits */}
 {/* i ve a lot to study for os exams which is tomorrow  */}
+{/* very stressing i am not feeling well due to my exams */}
                         </div>
                     </div>
                     <div className="skill_container_out">
