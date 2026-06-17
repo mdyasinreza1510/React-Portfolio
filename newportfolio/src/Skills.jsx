@@ -4,7 +4,12 @@ function Skill(){
 
 return(
     <>
-    <section id="Skill"></section>
+    <section id="MYSkill">
+        <div className="skill-main">
+            
+        </div>
+
+    </section>
     
     </>
 );

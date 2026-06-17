@@ -1,6 +1,6 @@
 import Navbar from './Navbar.jsx'
 import About from './About.jsx';
-import Skills from './Skills.jsx';
+import Skill from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Contactme from './Contactme.jsx';
 import heroimg from './assets/hrimage.png';
@@ -71,7 +71,7 @@ function App() {
       </div>
 
 
-      <Skills />
+      <Skill />
       <Projects />
       <Contactme />
     </>
