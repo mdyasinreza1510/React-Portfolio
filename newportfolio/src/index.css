@@ -65,99 +65,112 @@ section {
 #home {
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   width: 100%;
   min-height: 100vh;
   color: white;
-  background-color: #040D12;
+  background-image: url(assets/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
   display: flex;
   overflow: hidden;
 }
 
 .hero-content {
-  display: flex;
-  justify-content: center;
-
-  height: 100%;
-  position: absolute;
-  top: 15%;
-
-  width: 100%;
-  color: white;
-  text-align: center;
-
-}
-
-.mytext {
   box-sizing: border-box;
-
   display: flex;
   flex-direction: column;
+  align-items: start;
+  height: 78%;
+  /* background-color: red; */
+  position: absolute;
+  top: 15%;
   width: 50%;
-  /* background-color: blue; */
+  color: white;
+  text-align: center;
+  padding: 50px 10px 0px 30px;
 
 }
 
-.mainimg {
-  box-sizing: border-box;
-  overflow: hidden;
+.s1 {
+  color: #C7E113;
   display: flex;
   justify-content: center;
-
-  width: 60%;
-}
-
-.mainimg img {
-  margin-top: 50px;
-  margin-left: 35%;
-  height: 650px;
-}
-
-.myname {
-  margin: 20% 0 0 5%;
-  text-align: start;
+  align-items: center;
+  width: 310px;
+  word-spacing: 2px;
+  margin:0px 0px 15px 0px;
   /* background-color: blue; */
-  height: 4.6rem;
-
 }
 
-.dev-title {
-  /* background-color: pink; */
-  text-align: start;
-  margin: 0 0 0 5%;
+.s2 {
+  display: flex;
+  align-items: center;
+  
+  /* background-color: green; */
+  text-align:justify;
+  font-size: 5rem;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  height: 65px;
+  width: 400px;
+  margin-top: 2px;
+  
 }
 
-@keyframes fadeSlideIn {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-
-@keyframes FadeSlideIn {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.bio {
-
-  margin-left: 50px;
-  color: #FFF4E1;
-  box-sizing: border-box;
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(3px);
-  width: 79%;
-  height: 47%;
-  margin-top: 20px;
-  padding: 10px 20px 10px 20px;
-  line-height: 1.8rem;
-  font-size: 1.15rem;
+.s3 {
+  margin: 20px 0px 20px 0px;
   text-align: justify;
+  /* background-color: blue; */
+  width: 350px;
+}
+
+.herobutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:40px;
+  width: 400px;
+
+}
+.hbtn{
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  height: 100%;
+  width: 47%;
+  border: 2px solid #C7E113;
+  border-radius: 10px; 
+  transition: all 0.4s ease;
+}
+.hbtn:hover{
+  color: black;
+  background-color:#C7E113;
+
+}
+#t2{
+  /* margin: 100px 0px 0px 0px; */
+}
+#t3{
+  color: #C7E113;
+}
+#t4{
+  width: 600px;
+}
+
+
+
+
+.minihero {
+  position: absolute;
+  top: 92%;
+
+  width: 100%;
+  height: 70px;
+  background-color: blue;
 }
 
 /*______________________________________________________________ ABOUT __________________________________*/
@@ -251,17 +264,18 @@ section {
 } */
 
 /*______________________________________________ SKILL SECTION ____________________________________________*/
-#skill{
+#skill {
   width: 100%;
   height: 100vh;
 
 
 }
-.skill-main{
+
+.skill-main {
 
   background-color: red;
   height: 100%;
-  width: 100% ;
+  width: 100%;
 }
 
 /*_______________________________ projects section __________________________________________*/
