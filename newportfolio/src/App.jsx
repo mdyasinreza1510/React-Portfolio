@@ -39,7 +39,7 @@ function App() {
 
 
         <div className="hero-content">
-          <span id='t1' className='s1'>/// HELLO WELCOME TO MY PORTFOLIO</span>
+          <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span>
           <span id='t2' className='s2'>I BUILD</span>
           <span id='t3' className='s2'>DIGITAL</span>
           <span id='t4' className='s2'>EXPERIENCES</span>
@@ -57,7 +57,7 @@ function App() {
         <div className="minihero">
           <div className="miniwrapper">
              <HugeiconsIcon icon={VisualStudioCodeIcon} color='#C7E113' size={40} />
-              <span><h3>2+</h3>YEARS EXP.</span></div>
+              <span><h3>2+</h3>YEARS EXP</span></div>
           <div className="miniwrapper">
 
           </div>
