@@ -1,3 +1,7 @@
+import { HugeiconsIcon } from '@hugeicons/react';
+import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
+import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
+import { WorkAlertIcon } from '@hugeicons/core-free-icons';
 import Navbar from './Navbar.jsx'
 import About from './About.jsx';
 import Skill from './Skills.jsx';
@@ -43,14 +47,22 @@ function App() {
 
 
           <div className="herobutton">
-            <button className='hbtn'>My Work</button>
-            <button className='hbtn'>Download CV</button>
+            <button className='hbtn'>My Work <HugeiconsIcon className='iconss' icon={WorkAlertIcon} color='#C7E113' size={20} strokeWidth={2.5} /></button>
+            <button className='hbtn'>Download CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
           </div>
 
 
         </div>
 
         <div className="minihero">
+          <div className="miniwrapper">
+             <HugeiconsIcon icon={VisualStudioCodeIcon} color='#C7E113' size={40} />
+              <span><h3>2+</h3>YEARS EXP.</span></div>
+          <div className="miniwrapper">
+
+          </div>
+          <div className="miniwrapper"></div>
+          <div className="miniwrapper"></div>
 
         </div>
 
