@@ -1,17 +1,20 @@
-// making a completly new skill section 
-function Skill(){
+import { section } from "motion/react-client";
 
+function Skills(){
+    return(
+      <section id="MYSkill">
+        <div className="skill-info">
+            <span className="sk1"><h3>// MY EXPERTIES</h3></span>
+            <span className="sk2"></span>
+        </div>
 
-return(
-    <>
-    <section id="MYSkill">
-        <div className="skill-main">
+        <div className="skillbox">
             
         </div>
 
-    </section>
-    
-    </>
-);
+
+
+      </section>
+    )
 }
-export default Skill
+export default Skills

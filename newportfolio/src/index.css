@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
 section {
   height: 100vh;
   width: 100%;
@@ -56,14 +61,13 @@ section {
 
 .navbar a:hover {
   color: #C7E113;
-  
+
 
 }
 
 
 
 #home {
-  position: relative;
   margin: 0;
   padding: 0px;
   width: 100%;
@@ -84,7 +88,7 @@ section {
   align-items: start;
   height: 78%;
   /* background-color: red; */
-  position: absolute;
+  position: relative;
   top: 15%;
   width: 50%;
   color: white;
@@ -100,16 +104,16 @@ section {
   align-items: center;
   width: 310px;
   word-spacing: 2px;
-  margin:0px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
   /* background-color: blue; */
 }
 
 .s2 {
   display: flex;
   align-items: center;
-  
+
   /* background-color: green; */
-  text-align:justify;
+  text-align: justify;
   font-size: 5.5rem;
   font-family: "Black Ops One", system-ui;
   font-weight: 100;
@@ -117,7 +121,7 @@ section {
   height: 65px;
   width: 400px;
   margin-top: 15px;
-  
+
 }
 
 .s3 {
@@ -132,11 +136,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height:40px;
+  height: 40px;
   width: 400px;
 
 }
-.hbtn{
+
+.hbtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,30 +153,32 @@ section {
   height: 100%;
   width: 47%;
   border: 2px solid #C7E113;
-  border-radius: 10px; 
+  border-radius: 10px;
   transition: all 0.4s ease;
 }
-.hbtn:hover{
+
+.hbtn:hover {
   color: black;
-  background-color:#C7E113;
+  background-color: #C7E113;
 
 }
 
-#t3{
+#t3 {
   color: #C7E113;
 }
-#t4{
+
+#t4 {
   width: 600px;
 }
 
-.iconss{
-  color:#C7E113;
+.iconss {
+  color: #C7E113;
 }
 
-.hbtn:hover .iconss{
-   color: black;
-   transition:all 0.5s ease;
- 
+.hbtn:hover .iconss {
+  color: black;
+  transition: all 0.5s ease;
+
 }
 
 
@@ -182,7 +189,7 @@ section {
   backdrop-filter: blur(20px);
   border-top: 1px solid #c5e11366;
   position: absolute;
-  top: 91%;
+  bottom: 0;
   width: 100%;
   height: 80px;
   padding: 0px 30px 0px 30px;
@@ -193,11 +200,12 @@ section {
 
 
 }
-.miniwrapper{
+
+.miniwrapper {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  padding:0px 45px 0px 45px;
+  padding: 0px 45px 0px 45px;
   justify-content: space-evenly;
   /* background-color: red; */
   height: 65px;
@@ -205,109 +213,33 @@ section {
   border-radius: 15px;
 }
 
-/*______________________________________________________________ ABOUT __________________________________*/
-/* #about {
-  box-sizing: border-box;
-  background-color: #1e293b;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#about h2 {
-  color: #38bdf8;
-  font-size: 2rem;
-}
-
-#main-info {
-  margin-top: 40px;
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-
-}
-
-.data {
-  margin-left: 30px;
-  margin-top: 20px;
-  color: #FBFBFB;
-  line-height: 40px;
-  font-size: 20px;
-  width: 600px;
-  height: 500px;
-
-
-}
-
-.picture {
-  display: flex;
-  background-color: blue;
-  align-items: center;
-  justify-content: center;
-  height: 380px;
-  width: 380px;
-  border-radius: 50%;
-  margin-left: 10%;
-  overflow: hidden;
-
-
-}
-
-.animate {
-  animation: downtoup 1.5s ease;
-}
-
-@keyframes downtoup {
-  from {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
-
-/* .left-to-right {
-  animation: leftrigt 1s ease;
-}
-
-@keyframes leftrigt {
-  from {
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-} */
-
-/* .picture img {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 20px;
-  object-fit: fill;
-  margin-top: 20px;
-} */
-
 /*______________________________________________ SKILL SECTION ____________________________________________*/
-#skill {
+#MYSkill {
+position: relative;
   width: 100%;
   height: 100vh;
-
-
+  background-image: url(assets/skillbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.skill-main {
-
+.skill-info {
   background-color: red;
-  height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  width: 25%;
+  position: absolute;
+  bottom: 0;
+}
+.skillbox{
+  background-color: blue;
+  height: 60%;
+  width: 43%;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -40%);
 }
 
 /*_______________________________ projects section __________________________________________*/
