@@ -222,24 +222,25 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.skill-info {
-  background-color: red;
+.skill-main-box{
   display: flex;
-  flex-direction: column;
-  height: 85%;
-  width: 25%;
   position: absolute;
   bottom: 0;
+  width: 70%;
+  height: 75%;
+  background-color: red;
 }
-.skillbox{
+.skill-info{
   background-color: blue;
-  height: 60%;
-  width: 43%;
-  position: absolute;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%, -40%);
+  width:35%;
+  height: 100%;
+  padding: 50px 10px 0px 30px;
+}
+.true-skills{
+  background-color: green;
+  width: 70%;
+  height: 100%;
+
 }
 
 /*_______________________________ projects section __________________________________________*/

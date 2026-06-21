@@ -1,20 +1,25 @@
 import { section } from "motion/react-client";
+import { HugeiconsIcon } from '@hugeicons/react';
+import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 
-function Skills(){
-    return(
-      <section id="MYSkill">
+function Skills() {
+  return (
+    <section id="MYSkill">
+      <div className="skill-main-box">
         <div className="skill-info">
-            <span className="sk1"><h3>// MY EXPERTIES</h3></span>
-            <span className="sk2"></span>
+          <span id='sk1' className='skl1'>// MY EXPERTIES</span>
+          <span id='sk2' className='s2'>SKILLS</span>
+          <span id='sk3' className='s3'>HELLO FELLAS I AM YASIN YOUR FRIEND Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vel dolore nihil dicta</span>
+        
+                      
         </div>
-
-        <div className="skillbox">
-            
-        </div>
+        <div className="true-skills"></div>
+      </div>
 
 
 
-      </section>
-    )
+
+    </section>
+  )
 }
 export default Skills
