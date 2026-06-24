@@ -9,6 +9,7 @@
 
 .skill-main-box {
     display: flex;
+    
     position: absolute;
     bottom: 0;
     width: 70%;
@@ -19,6 +20,7 @@
 .skill-info {
     box-sizing: border-box;
     display: flex;
+ 
     flex-direction: column;
     gap: 8px;
     /* background-color: rgba(255, 0, 0, 0.147); */
@@ -44,18 +46,21 @@
 #sk2 {
     display: flex;
     align-items: center;
-    color: #C7E113;
-    /* background-color: green; */
     text-align: justify;
-    font-size: 5.5rem;
-    font-family: "Black Ops One", system-ui;
-    font-weight: 100;
-    font-style: normal;
+    /* background-color: green; */
     height: 65px;
     width: 400px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
+}
+.SK2{
+    
+    color: #C7E113;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Black Ops One", system-ui;
+    font-size: 5.6rem;
 }
 
 #sk3 {
@@ -82,7 +87,7 @@
     font-size: .9rem;
     font-weight: 600;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .pagebutton:hover {
@@ -160,7 +165,7 @@
     height: 100px;
     width: 200px;
     
-    border-radius: 19px;
+    border-radius: 13px;
 
 }
 
@@ -196,5 +201,15 @@
     height: 100%;
     background-color: #C7E113;
     border-radius: 5px;
-    width: 80%;
+    animation: baranimation 1s ease forwards;
+   
+}
+@keyframes baranimation {
+    from{
+        width: 0;
+    }
+    to{
+        width: var(--width);
+    }
+    
 }
