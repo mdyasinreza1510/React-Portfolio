@@ -28,7 +28,7 @@ function Skills() {
           style={{fontFamily: "Black Ops One"}} delay={0.5} />
           </span>
 
-          <span id="sk3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
+          <span id="sk3">I'm a passionate Frontend Developer and Computer Science student who enjoys building modern, responsive, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, React.js, and creating smooth UI/UX experiences with clean code. I love transforming ideas into interactive digital products while continuously learning new technologies and improving my skills. My goal is to craft websites that are both visually appealing and highly functional.</span>
           <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
 
           <div className="page-announce">

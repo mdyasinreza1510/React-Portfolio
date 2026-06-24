@@ -17,7 +17,7 @@ function Home() {
         <span id='t2' className='s2'>MD</span>
         <span id='t3' className='s2'>YASIN</span>
         <span id='t4' className='s2'>REZA</span>
-        <span id='t5' className='s3'>HELLO FELLAS I AM YASIN YOUR FRIEND Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vel dolore nihil dicta</span>
+        <span id='t5' className='s3'>Hi, I'm MD Yasin Reza, a passionate Frontend Developer and Computer Science student with a strong interest in creating modern and interactive web experiences. I enjoy turning ideas into responsive, user-friendly websites using HTML, CSS, JavaScript, and React.js. I believe in writing clean, efficient code and continuously learning new technologies to improve my skills. </span>
 
 
         <div className="herobutton">

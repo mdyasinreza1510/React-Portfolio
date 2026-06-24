@@ -1,3 +1,9 @@
+import './Styles/Projects.css'
+import { HugeiconsIcon } from '@hugeicons/react';
+import ShinyText from './Components/ShinyText.jsx';
+import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
+import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
+import { BoxIcon } from '@hugeicons/core-free-icons'
 import aniv from './assets/aniv.png'
 import bmi from './assets/bmi.png'
 import cc from './assets/cc.png'
@@ -5,54 +11,41 @@ import LOGIN from './assets/LOGIN.png'
 import rps from './assets/rps.png'
 import tic from './assets/tic.png'
 
-function Projects(){
-    return(
-        <>
-        <section id="myprojects">
-    <h2>MY PROJECTS</h2>
-    <div className="project-conatiner" >
 
-        <div className="project-content">
-          <img className="pro-img" src={cc} alt="currency-converter"/>
-        <a href="https://mdyasinreza1510.github.io/currency_converter/"target="_blank">ONLINE CURRENCY CONVERTER</a>
+function Projects() {
+  return (
+    <>
+      <section id="myprojects">
+        <div className="main-pro-cont">
+          <div className="project-info">
+
+            <span id="pr1">// MY WORKS</span>
+            <span id="pr2"> <ShinyText className='PR2' text=" PROJECTS" color='#deff0a'
+              style={{ fontFamily: "Black Ops One" }} delay={0.5} />
+            </span>
+
+            <span id="pr3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
+            <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+
+            <div className="page-announce-p">
+              <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>10+</h3>PROJECTS </span>
+            </div>
+
+             <div className="page-announce-p">
+              <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
+            </div>
+
+
+
+          </div>
+          <div className="project-box"></div>
+
+
         </div>
-        
 
-        <div className="project-content">
-          <img className="pro-img" src={aniv} alt="anniversary-wisher"/>
-        <a href="https://mdyasinreza1510.github.io/Wish_anniversary/"target="_blank">ANNIVERSARY WISH (DEMO)</a>
-        </div>
+      </section>
 
-
-                <div className="project-content">
-          <img className="pro-img" src={rps} alt="rock-paper-scissor"/>
-        <a href="https://mdyasinreza1510.github.io/ROCK_PAPER_SCISSOR/"target="_blank">ONLINE ROCK PAPER SCISSOR</a>
-        </div>
-
-
-        
-        <div className="project-content">
-          <img className="pro-img" src={tic} alt="tic-tac-toe"/>
-        <a href="https://mdyasinreza1510.github.io/TIC-TAC-TOE/"target="_blank">ONLINE TIC-TAC-TOE GAME</a>
-        </div>
-        
-        
-        <div className="project-content">
-        <img className="pro-img" src={bmi} alt="BMICAL"/>
-       <a href="https://mdyasinreza1510.github.io/BMI-CALCULATOR/"target="_blank">ONLINE BMI CALCULATOR</a>
-        </div>
-        
-        
-        <div className="project-content">
-        <img className="pro-img" src={LOGIN} alt="LOGINPAGE"/>
-        <a href="https://mdyasinreza1510.github.io/LOGIN_PAGE/"target="_blank">ONLINE LOGIN PAGE DEMO</a>
-        </div>
-         
-    </div>
-
- </section>
-        
-        </>
-    );
-} 
+    </>
+  );
+}
 export default Projects

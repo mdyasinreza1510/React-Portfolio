@@ -9,11 +9,11 @@
 
 .skill-main-box {
     display: flex;
-    
+    /* background-color: blue; */
     position: absolute;
     bottom: 0;
     width: 70%;
-    height: 75%;
+    height: 80%;
     /* background-color: red; */
 }
 
@@ -64,10 +64,11 @@
 }
 
 #sk3 {
-    /* background-color: red; */
-    color: rgb(161, 161, 161);
+  
+    color: rgb(189, 186, 186);
     height: auto;
-    text-align: start;
+    width: 350px;
+    text-align: justify;
     margin-bottom: 20px;
 
 }
@@ -79,7 +80,7 @@
     justify-content: center;
     gap: 20px;
     height: 40px;
-    width: 50%;
+    width: 220px;
     background: none;
     border: 2px solid #C7E113;
     border-radius: 10px;
@@ -87,7 +88,7 @@
     font-size: .9rem;
     font-weight: 600;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .pagebutton:hover {
@@ -106,12 +107,14 @@
     color: white;
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    padding-left: 10px;
     height: 65px;
+    width: 220px;
     /* background-color: red; */
     border: 2px solid #C7E113;
-    width: 60%;
+    
     border-radius: 10px;
 }
 
@@ -203,7 +206,7 @@
     border-radius: 5px;
       filter:
         drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
-    animation: baranimation 1s ease forwards;
+    animation: baranimation 2s ease forwards;
    
 }
 @keyframes baranimation {
