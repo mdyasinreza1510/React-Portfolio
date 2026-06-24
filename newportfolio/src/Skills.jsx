@@ -1,7 +1,13 @@
-import { section } from "motion/react-client";
+
 import { HugeiconsIcon } from '@hugeicons/react';
 import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import './Styles/Skills.css'
+
 
 function Skills() {
   return (
@@ -24,15 +30,154 @@ function Skills() {
         <div className="true-skills">
           <div className="my-skill-text">// TECHNICAL SKILLS</div>
           <div className="skill-out-box">
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
-            <div className="skill"></div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>HTML</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaCss3Alt size={50} color='#C7E113'/>
+                <span><h3>CSS</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaJsSquare size={50} color='#C7E113'/>
+                <span><h3>JS</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>REACT</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>C</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>C++</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaPython size={50} color='#C7E113' />
+                <span><h3>PYTHON</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>NODE</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+            <div className="skill">
+
+              <div className="box1">
+                <FaHtml5 size={50} color='#C7E113' />
+                <span><h3>EXPRESS</h3> 95%</span>
+              </div>
+
+              <div className="box2">
+                <div className="bar-box">
+                  <div className="bar"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+
+
+
+
+
+
+
           </div>
         </div>
       </div>

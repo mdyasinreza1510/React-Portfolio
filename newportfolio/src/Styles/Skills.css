@@ -1,0 +1,200 @@
+#MYSkill {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/skillbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-main-box {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 75%;
+    /* background-color: red; */
+}
+
+.skill-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* background-color: rgba(255, 0, 0, 0.147); */
+    width: 40%;
+    height: 100%;
+    padding: 0px 10px 0px 35px;
+}
+
+
+
+#sk1 {
+    /* background-color: blue; */
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 650;
+    word-spacing: 2px;
+}
+
+#sk2 {
+    display: flex;
+    align-items: center;
+    color: #C7E113;
+    /* background-color: green; */
+    text-align: justify;
+    font-size: 5.5rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    height: 65px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#sk3 {
+    /* background-color: red; */
+    color: rgb(161, 161, 161);
+    height: auto;
+    text-align: start;
+    margin-bottom: 20px;
+
+}
+
+.pagebutton {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 40px;
+    width: 50%;
+    background: none;
+    border: 2px solid #C7E113;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    font-size: .9rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.pagebutton:hover {
+    color: black;
+    background-color: #C7E113;
+
+}
+
+.pagebutton:hover .iconss {
+    color: black;
+    transition: all 0.5s ease;
+
+}
+
+.page-announce {
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    /* background-color: red; */
+    border: 2px solid #C7E113;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.page-announce .ic {
+    margin-top: 8px;
+}
+
+
+
+.true-skills {
+    /* background-color: white; */
+    width: 70%;
+    height: 100%;
+    padding: 0px 19px 0px 0px;
+
+}
+
+.my-skill-text {
+    color: #C7E113;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 37px;
+    /* background-color: green; */
+    width: 100%;
+    font-weight: 650;
+    word-spacing: 2px;
+}
+
+.skill-out-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(0, 0, 255); */
+    
+    height: 65%;
+    gap: 10px;
+}
+
+.skill {
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.6px solid #414141;
+    padding: 8px;
+    /* background-color: rgb(255, 0, 0); */
+    height: 100px;
+    width: 200px;
+    
+    border-radius: 19px;
+
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    justify-content: start;
+    /* background-color: blue; */
+    height: 70%;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 30%;
+    /* background-color: yellow; */
+}
+.box2 span{
+    margin-bottom: 4px;
+    color: white;
+}
+.bar-box{
+    border-radius: 15px;
+    width:78%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.31);
+}
+.bar{
+    height: 100%;
+    background-color: #C7E113;
+    border-radius: 5px;
+    width: 80%;
+}
