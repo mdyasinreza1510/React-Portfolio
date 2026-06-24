@@ -52,7 +52,7 @@
     width: 400px;
     margin-top: 15px;
     margin-bottom: 10px;
-
+    
 }
 .SK2{
     
@@ -201,6 +201,8 @@
     height: 100%;
     background-color: #C7E113;
     border-radius: 5px;
+      filter:
+        drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
     animation: baranimation 1s ease forwards;
    
 }
@@ -211,5 +213,11 @@
     to{
         width: var(--width);
     }
+    
+}
+.skill-ic{
+
+    filter:
+        drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
     
 }

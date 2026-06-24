@@ -3,11 +3,16 @@ import { HugeiconsIcon } from '@hugeicons/react';
 import ShinyText from './Components/ShinyText.jsx';
 import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
-
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
+import { RiReactjsFill } from "react-icons/ri";
+import { TbBrandCpp } from "react-icons/tb";
 import { FaPython } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { BsCCircleFill } from "react-icons/bs";
+
 import './Styles/Skills.css'
 
 
@@ -18,8 +23,11 @@ function Skills() {
         <div className="skill-info">
 
           <span id="sk1">// MY EXPERTIES</span>
-          <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#c5e113d5' 
-          style={{fontFamily: "Black Ops One"}}  /></span>
+
+          <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a' 
+          style={{fontFamily: "Black Ops One"}} delay={0.5} />
+          </span>
+
           <span id="sk3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
           <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
 
@@ -38,7 +46,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <FaHtml5 size={50} color='#C7E113' className='skill-ic' />
                 <span><h3>HTML</h3> 85%</span>
               </div>
 
@@ -53,7 +61,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaCss3Alt size={50} color='#C7E113' />
+                <FaCss3Alt className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>CSS</h3> 73%</span>
               </div>
 
@@ -68,7 +76,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaJsSquare size={50} color='#C7E113' />
+                <FaJsSquare className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>JS</h3> 60%</span>
               </div>
 
@@ -84,7 +92,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <RiReactjsFill className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>REACT</h3> 68%</span>
               </div>
 
@@ -100,7 +108,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <BsCCircleFill className='skill-ic' size={47} color='#C7E113' />
                 <span><h3>C</h3> 80%</span>
               </div>
 
@@ -116,7 +124,9 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <TbBrandCpp 
+                
+                className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>C++</h3> 75%</span>
               </div>
 
@@ -132,7 +142,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaPython size={50} color='#C7E113' />
+                <FaPython className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>PYTHON</h3> 50%</span>
               </div>
 
@@ -147,7 +157,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <FaNodeJs className='skill-ic' size={50} color='#C7E113' />
                 <span><h3>NODE</h3> 10%</span>
               </div>
 
@@ -163,7 +173,7 @@ function Skills() {
             <div className="skill">
 
               <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' />
+                <SiExpress className='skill-ic' size={45} color='#C7E113' />
                 <span><h3>EXPRESS</h3> 5%</span>
               </div>
 
