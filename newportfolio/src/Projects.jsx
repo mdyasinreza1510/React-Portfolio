@@ -10,6 +10,7 @@ import cc from './assets/cc.png'
 import LOGIN from './assets/LOGIN.png'
 import rps from './assets/rps.png'
 import tic from './assets/tic.png'
+import ElectricBorder from './Components/ElectricBorder.jsx'
 
 
 function Projects() {
@@ -39,15 +40,126 @@ function Projects() {
 
           </div>
 
+
           <div className="project-box">
-            <div className="pr-box"></div>
-            <div className="pr-box"></div>
-            <div className="pr-box"></div>
-            <div className="pr-box"></div>
-            <div className="pr-box"></div>
-            <div className="pr-box"></div>
-           
+
+            <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
             
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+                        <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+            
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+                        <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+            
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+                        <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+            
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+                        <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+            
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+                        <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+            
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={cc} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <h3>CURRENCY CONVERTER</h3>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+
+
+
+
+
+
+        
+
+
 
 
           </div>
