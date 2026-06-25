@@ -20,7 +20,6 @@
 .skill-info {
     box-sizing: border-box;
     display: flex;
- 
     flex-direction: column;
     gap: 8px;
     /* background-color: rgba(255, 0, 0, 0.147); */
@@ -52,10 +51,11 @@
     width: 400px;
     margin-top: 15px;
     margin-bottom: 10px;
-    
+
 }
-.SK2{
-    
+
+.SK2 {
+
     color: #C7E113;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +64,7 @@
 }
 
 #sk3 {
-  
+
     color: rgb(189, 186, 186);
     height: auto;
     width: 350px;
@@ -114,7 +114,7 @@
     width: 220px;
     /* background-color: red; */
     border: 2px solid #C7E113;
-    
+
     border-radius: 10px;
 }
 
@@ -151,7 +151,7 @@
     justify-content: center;
     flex-wrap: wrap;
     /* background-color: rgb(0, 0, 255); */
-    
+
     height: 65%;
     gap: 10px;
 }
@@ -167,7 +167,7 @@
     /* background-color: rgb(255, 0, 0); */
     height: 100px;
     width: 200px;
-    
+
     border-radius: 13px;
 
 }
@@ -190,37 +190,43 @@
     height: 30%;
     /* background-color: yellow; */
 }
-.box2 span{
+
+.box2 span {
     margin-bottom: 4px;
     color: white;
 }
-.bar-box{
+
+.bar-box {
     border-radius: 15px;
-    width:78%;
+    width: 78%;
     height: 6px;
     background-color: rgba(255, 255, 255, 0.31);
 }
-.bar{
+
+.bar {
     height: 100%;
     background-color: #C7E113;
     border-radius: 5px;
-      filter:
+    filter:
         drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
     animation: baranimation 2s ease forwards;
-   
+
 }
+
 @keyframes baranimation {
-    from{
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: var(--width);
     }
-    
+
 }
-.skill-ic{
+
+.skill-ic {
 
     filter:
         drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
-    
+
 }

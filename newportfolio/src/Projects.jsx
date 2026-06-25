@@ -31,14 +31,26 @@ function Projects() {
               <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>10+</h3>PROJECTS </span>
             </div>
 
-             <div className="page-announce-p">
+            <div className="page-announce-p">
               <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
             </div>
 
 
 
           </div>
-          <div className="project-box"></div>
+
+          <div className="project-box">
+            <div className="pr-box"></div>
+            <div className="pr-box"></div>
+            <div className="pr-box"></div>
+            <div className="pr-box"></div>
+            <div className="pr-box"></div>
+            <div className="pr-box"></div>
+           
+            
+
+
+          </div>
 
 
         </div>
