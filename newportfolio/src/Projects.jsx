@@ -4,6 +4,8 @@ import ShinyText from './Components/ShinyText.jsx';
 import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
 import { BoxIcon } from '@hugeicons/core-free-icons'
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 import aniv from './assets/aniv.png'
 import bmi from './assets/bmi.png'
 import cc from './assets/cc.png'
@@ -48,117 +50,19 @@ function Projects() {
               chaos={0.06}
               thickness={5}
               style={{ borderRadius: 12 }}>
-            
+
               <div className="pr-box">
                 <div className="pr-img" >
                   <img src={cc} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3> 
+                  <span>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
                 </div>
 
               </div>
+
             </ElectricBorder>
-
-                        <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-            
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-                        <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-            
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-                        <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-            
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-                        <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-            
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-                        <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-            
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-
-
-
-
-
-
-        
-
-
 
 
           </div>
