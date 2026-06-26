@@ -69,16 +69,16 @@
     overflow: hidden;
 }
 .pr-img img{
-    
-    height: 100%;
-    width: 100%;
+width: 100%;
+height: 100%;
+
 }
 
 
 .pr-info{
+    background-color: red;
     color: white;
     text-align: center;
-    
     height: 35%;
 }
 

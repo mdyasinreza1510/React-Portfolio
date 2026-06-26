@@ -42,7 +42,6 @@ function Projects() {
 
 
           <div className="project-box">
-
             <ElectricBorder
               color="#C7E113"
               speed={1.5}
@@ -55,7 +54,7 @@ function Projects() {
                   <img src={cc} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <h3>CURRENCY CONVERTER</h3>
+                  <h3>CURRENCY CONVERTER</h3> 
                 </div>
 
               </div>
