@@ -24,7 +24,7 @@ function Projects() {
 
             <span id="pr1">// MY WORKS</span>
             <span id="pr2"> <ShinyText className='PR2' text=" PROJECTS" color='#deff0a'
-              style={{ fontFamily: "Black Ops One" }} delay={0.5} />
+              delay={0.5} />
             </span>
 
             <span id="pr3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
@@ -44,6 +44,8 @@ function Projects() {
 
 
           <div className="project-box">
+
+            
             <ElectricBorder
               color="#C7E113"
               speed={1.5}
@@ -56,12 +58,15 @@ function Projects() {
                   <img src={cc} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <span>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  <span className='textspan'>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
                 </div>
 
               </div>
-
             </ElectricBorder>
 
 
