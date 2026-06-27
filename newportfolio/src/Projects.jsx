@@ -5,7 +5,6 @@ import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
 import { BoxIcon } from '@hugeicons/core-free-icons'
 import { FaExternalLinkAlt } from "react-icons/fa";
-
 import aniv from './assets/aniv.png'
 import bmi from './assets/bmi.png'
 import cc from './assets/cc.png'
@@ -44,8 +43,6 @@ function Projects() {
 
 
           <div className="project-box">
-
-            
             <ElectricBorder
               color="#C7E113"
               speed={1.5}
@@ -59,6 +56,53 @@ function Projects() {
                 </div>
                 <div className="pr-info">
                   <span className='textspan'>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+             <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={aniv} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <span className='textspan'>ANNIVERSARY WISHER<a className='pr-link' href="https://mdyasinreza1510.github.io/Wish_anniversary/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
+                </div>
+
+              </div>
+            </ElectricBorder> 
+            
+            
+            <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={rps} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
                   <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
                   <div className="techstack">

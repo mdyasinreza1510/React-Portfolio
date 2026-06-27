@@ -29,7 +29,7 @@
 }
 
 .project-box {
-   /* background-color: red; */
+    /* background-color: red; */
     scroll-behavior: smooth;
     margin-top: 60px;
     margin-left: 10px;
@@ -115,6 +115,7 @@
 }
 
 .techstack span {
+    font-weight: 500;
     color: #C7E113;
     display: flex;
     align-items: center;
@@ -125,6 +126,14 @@
     width: 70px;
     border-radius: 5px;
     border: 2px solid #414141;
+    
+}
+
+
+.techstack span:hover {
+    background-color: #C7E113;
+    color: black;
+    transition: all 0.5s ease;
 }
 
 
