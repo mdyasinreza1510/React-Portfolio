@@ -10,7 +10,7 @@ import bmi from './assets/bmi.png'
 import cc from './assets/cc.png'
 import LOGIN from './assets/LOGIN.png'
 import rps from './assets/rps.png'
-import tic from './assets/tic.png'
+import tic from './assets/TTT.png'
 import ElectricBorder from './Components/ElectricBorder.jsx'
 
 
@@ -66,7 +66,7 @@ function Projects() {
               </div>
             </ElectricBorder>
 
-             <ElectricBorder
+            <ElectricBorder
               color="#C7E113"
               speed={1.5}
               chaos={0.06}
@@ -87,9 +87,9 @@ function Projects() {
                 </div>
 
               </div>
-            </ElectricBorder> 
-            
-            
+            </ElectricBorder>
+
+
             <ElectricBorder
               color="#C7E113"
               speed={1.5}
@@ -112,6 +112,77 @@ function Projects() {
 
               </div>
             </ElectricBorder>
+
+            <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={tic} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+            <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={bmi} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+            <ElectricBorder
+              color="#C7E113"
+              speed={1.5}
+              chaos={0.06}
+              thickness={5}
+              style={{ borderRadius: 12 }}>
+
+              <div className="pr-box">
+                <div className="pr-img" >
+                  <img src={LOGIN} alt="currency converter" />
+                </div>
+                <div className="pr-info">
+                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  </span>
+                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <div className="techstack">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  </div>
+                </div>
+
+              </div>
+            </ElectricBorder>
+
+
 
 
           </div>
