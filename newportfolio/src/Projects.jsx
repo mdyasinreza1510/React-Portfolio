@@ -66,6 +66,15 @@ function Projects() {
               </div>
             </ElectricBorder>
 
+
+
+
+
+
+
+
+
+
             <ElectricBorder
               color="#C7E113"
               speed={1.5}
@@ -80,7 +89,7 @@ function Projects() {
                 <div className="pr-info">
                   <span className='textspan'>ANNIVERSARY WISHER<a className='pr-link' href="https://mdyasinreza1510.github.io/Wish_anniversary/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <span className='prlinkinfo'>Celebrate every special moment with a beautifully designed Anniversary Wisher that delivers heartfelt wishes.</span>
                   <div className="techstack">
                     <span>HTML</span><span>CSS</span><span>JS</span>
                   </div>
@@ -88,6 +97,12 @@ function Projects() {
 
               </div>
             </ElectricBorder>
+
+
+
+
+
+
 
 
             <ElectricBorder
@@ -102,9 +117,9 @@ function Projects() {
                   <img src={rps} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/ROCK_PAPER_SCISSOR/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <span className='prlinkinfo'>Enjoy the timeless Rock Paper Scissors game with an interactive neon-themed interface, real-time score tracking,</span>
                   <div className="techstack">
                     <span>HTML</span><span>CSS</span><span>JS</span>
                   </div>
@@ -112,6 +127,13 @@ function Projects() {
 
               </div>
             </ElectricBorder>
+
+
+
+
+
+
+
 
             <ElectricBorder
               color="#C7E113"
@@ -125,9 +147,9 @@ function Projects() {
                   <img src={tic} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  <span className='textspan'>TIC-TAC-TOE<a className='pr-link' href="https://mdyasinreza1510.github.io/TIC-TAC-TOE/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <span className='prlinkinfo'>A classic Tic Tac Toe game reimagined with a sleek modern interface, smooth gameplay, and instant win detection.</span>
                   <div className="techstack">
                     <span>HTML</span><span>CSS</span><span>JS</span>
                   </div>
@@ -135,6 +157,16 @@ function Projects() {
 
               </div>
             </ElectricBorder>
+
+
+
+
+
+
+
+
+
+
 
             <ElectricBorder
               color="#C7E113"
@@ -148,9 +180,9 @@ function Projects() {
                   <img src={bmi} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  <span className='textspan'>BMI-CALCULATOR<a className='pr-link' href="https://mdyasinreza1510.github.io/BMI-CALCULATOR/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <span className='prlinkinfo'>A modern BMI Calculator that instantly measures your Body Mass Index using height and weight inputs.It provides accurate health</span>
                   <div className="techstack">
                     <span>HTML</span><span>CSS</span><span>JS</span>
                   </div>
@@ -158,6 +190,15 @@ function Projects() {
 
               </div>
             </ElectricBorder>
+
+
+
+
+
+
+
+
+
 
             <ElectricBorder
               color="#C7E113"
@@ -171,9 +212,9 @@ function Projects() {
                   <img src={LOGIN} alt="currency converter" />
                 </div>
                 <div className="pr-info">
-                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                  <span className='textspan'>LOGIN PAGE (DEMO)<a className='pr-link' href="https://mdyasinreza1510.github.io/LOGIN_PAGE/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
                   </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                  <span className='prlinkinfo'>A sleek and responsive authentication interface showcasing modern frontend design principles with form validation,</span>
                   <div className="techstack">
                     <span>HTML</span><span>CSS</span><span>JS</span>
                   </div>
