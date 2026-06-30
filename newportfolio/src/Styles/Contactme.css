@@ -58,13 +58,28 @@
 .cm2{
     height: 40px;
     color: #C7E113;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     text-align: center;
     gap: 5px;
    
 }
-
+.inp-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: greenyellow;
+    width: 500px;
+    height: 40px;
+}
+.inp-box input{
+    box-sizing: border-box;
+    height: 100%;
+    width: 240px;
+    
+    border: 2px solid #C7E113;
+    outline: none;
+}
 
 .b2{
     background-color: green;

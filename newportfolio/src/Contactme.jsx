@@ -17,7 +17,7 @@ function Contactme() {
                 <div className="cm-main-box">
                     <div className="b1">
                         <div className='cm2'><LuMessageSquareMore size={30} color='#deff0a' /><h3>SEND ME A MESSEGE</h3></div>
-                        <div>
+                        <div className='inp-box'>
                             <input type="text" placeholder='Your Name' />
                             <input type="email" placeholder='Your Email' />
                         </div>
