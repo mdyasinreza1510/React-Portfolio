@@ -1,5 +1,6 @@
 import './Styles/Contactme.css'
 import ShinyText from './Components/ShinyText.jsx';
+import { LuMessageSquareMore } from "react-icons/lu";
 function Contactme() {
     return (
         <>
@@ -15,7 +16,7 @@ function Contactme() {
                 </div>
                 <div className="cm-main-box">
                     <div className="b1">
-                        <div><h3>SEND ME A MESSEGE</h3></div>
+                        <div className='cm2'><LuMessageSquareMore size={30} color='#deff0a' /><h3>SEND ME A MESSEGE</h3></div>
                         <div>
                             <input type="text" placeholder='Your Name' />
                             <input type="email" placeholder='Your Email' />

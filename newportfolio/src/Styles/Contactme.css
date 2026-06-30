@@ -55,6 +55,17 @@
     border-radius: 10px;
 
 }
+.cm2{
+    height: 40px;
+    color: #C7E113;
+    background-color: green;
+    display: flex;
+    text-align: center;
+    gap: 5px;
+   
+}
+
+
 .b2{
     background-color: green;
     height: 100%;
