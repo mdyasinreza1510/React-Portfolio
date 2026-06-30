@@ -14,9 +14,36 @@ function Contactme() {
                     <span>LET'S CONNECT AND CREATE SOMETHING AMAZING TOGETHER</span>
                 </div>
                 <div className="cm-main-box">
-                    <div className="b1"></div>
+                    <div className="b1">
+                        <div><h3>SEND ME A MESSEGE</h3></div>
+                        <div>
+                            <input type="text" placeholder='Your Name' />
+                            <input type="email" placeholder='Your Email' />
+                        </div>
+
+                        <div>
+                            <textarea placeholder='Your messege' id=""></textarea>
+                        </div>
+                        <button>SEND MESSEGE</button>
+                    </div>
+
+
+
+
+
+
+
                     <div className="b2"></div>
                 </div>
+
+
+
+
+
+
+
+
+
                 <div className="footer"></div>
 
 
