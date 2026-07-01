@@ -54,6 +54,8 @@
     width: 60%;
     /* background-color: red; */
     border-radius: 16px;
+    background: none;
+    backdrop-filter: blur(5px);
 
 }
 .cm2{
