@@ -1,6 +1,8 @@
 import './Styles/Contactme.css'
 import ShinyText from './Components/ShinyText.jsx';
 import { LuMessageSquareMore } from "react-icons/lu";
+import { IoPaperPlaneOutline } from "react-icons/io5";
+
 function Contactme() {
     return (
         <>
@@ -22,10 +24,9 @@ function Contactme() {
                             <input type="email" placeholder='Your Email' />
                         </div>
 
-                        <div>
-                            <textarea placeholder='Your messege' id=""></textarea>
-                        </div>
-                        <button>SEND MESSEGE</button>
+                            <textarea placeholder='Your Message' id=""></textarea>
+                       
+                        <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24}/></button>
                     </div>
 
 
