@@ -124,6 +124,9 @@ textarea{
 }
 
 .b2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     color: WHITE;
     background-color: green;
     height: 100%;
@@ -133,10 +136,23 @@ textarea{
     border-radius: 16px;
     background: none;
     backdrop-filter: blur(5px);
+    flex: 1;
 }
 .b2 h3{
     color: #C7E113;
     margin-bottom: 18px;
+}
+.main-cont-via{
+    height: 100vmin;
+    width: 100%;
+
+    background-color: red;
+}
+.contact-via{
+    background-color: rgba(0, 0, 255, 0.734);
+    display: flex;
+    align-items: center;
+    
 }
 
 .footer{

@@ -39,14 +39,19 @@ function Contactme() {
 
                     <div className="b2">
                         <h3>GET IN TOUCH</h3>
-                        <div className="contact-via">
-                            <MailIcon
+                        <div className="main-cont-via">
+
+                            <div className="contact-via">
+                            <MailIcon className='cm-icon'
                                 size={28}
                                 duration={1}
-                                color="#ffffff"
-                            />
+                                color="#C7E113"/>
 
                         </div>
+                        
+                        </div>
+
+                        
                     </div>
                 </div>
 
