@@ -78,7 +78,7 @@
     margin-bottom: 15px;
 }
 .inp-box input{
-    color: white;
+    color: rgba(255, 255, 255, 0.819);
     box-sizing: border-box;
     height: 100%;
     width: 290px;
