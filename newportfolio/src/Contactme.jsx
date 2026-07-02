@@ -3,6 +3,11 @@ import ShinyText from './Components/ShinyText.jsx';
 import { LuMessageSquareMore } from "react-icons/lu";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { MailIcon } from "@animateicons/react/lucide";
+import { PhoneCallIcon } from "@animateicons/react/lucide";
+import { MapPinIcon } from "@animateicons/react/lucide";
+import { UserPlusIcon } from "@animateicons/react/lucide";
+
+
 
 
 function Contactme() {
@@ -42,16 +47,46 @@ function Contactme() {
                         <div className="main-cont-via">
 
                             <div className="contact-via">
-                            <MailIcon className='cm-icon'
-                                size={28}
-                                duration={1}
-                                color="#C7E113"/>
+                                    <MailIcon className='cm-icon'
+                                    size={40}
+                                    duration={1}
+                                    color="#C7E113" />
+                                    <span><h4>EMAIL</h4>aec.cse.2024mdyasinreza@gmail.com</span>
+
+                            </div>
+
+                            <div className="contact-via">
+                                    <PhoneCallIcon className='cm-icon'
+                                    size={40}
+                                    duration={1}
+                                    color="#C7E113" />
+                                    <span><h4>PHONE</h4>+91 7074307273</span>
+
+                            </div>
+
+                            <div className="contact-via">
+                                    <UserPlusIcon className='cm-icon'
+                                    size={40}
+                                    duration={1}
+                                    color="#C7E113" />
+                                    <span><h4>AVAILABILITY</h4>MON-FRI  : 9AM-6PM</span>
+
+                            </div>
+
+                            <div className="contact-via">
+                                    <MapPinIcon className='cm-icon'
+                                    size={40}
+                                    duration={1.5}
+                                    color="#C7E113" />
+                                    <span><h4>LOCATION</h4>ASANSOL , WEST BENGAL</span>
+
+                            </div>
+
+                          
 
                         </div>
-                        
-                        </div>
 
-                        
+
                     </div>
                 </div>
 
