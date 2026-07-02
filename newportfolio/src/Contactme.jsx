@@ -2,6 +2,8 @@ import './Styles/Contactme.css'
 import ShinyText from './Components/ShinyText.jsx';
 import { LuMessageSquareMore } from "react-icons/lu";
 import { IoPaperPlaneOutline } from "react-icons/io5";
+import { MailIcon } from "@animateicons/react/lucide";
+
 
 function Contactme() {
     return (
@@ -10,9 +12,9 @@ function Contactme() {
                 <div className="headings">
                     <span className='head'><ShinyText className='cm1' text="CONTACT " color='#deff0a'
                         delay={0.5}
-                         />
+                    />
                         <ShinyText className='cm1' text="ME" color='white'
-                        delay={0.5} /></span>
+                            delay={0.5} /></span>
 
                     <span>LET'S CONNECT AND CREATE SOMETHING AMAZING TOGETHER</span>
                 </div>
@@ -24,9 +26,9 @@ function Contactme() {
                             <input type="email" placeholder='Your Email' />
                         </div>
 
-                            <textarea placeholder='Your Message' id=""></textarea>
-                       
-                        <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24}/></button>
+                        <textarea placeholder='Your Message' id=""></textarea>
+
+                        <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24} /></button>
                     </div>
 
 
@@ -35,7 +37,17 @@ function Contactme() {
 
 
 
-                    <div className="b2"></div>
+                    <div className="b2">
+                        <h3>GET IN TOUCH</h3>
+                        <div className="contact-via">
+                            <MailIcon
+                                size={28}
+                                duration={1}
+                                color="#ffffff"
+                            />
+
+                        </div>
+                    </div>
                 </div>
 
 
