@@ -107,11 +107,20 @@ function Contactme() {
                             duration={1}
                             color="#C7E113"
                         />
-                        <span><h3 style={{color:"#C7E113"}}>LET'S WORK TOGATHER</h3>I am always open to discussing new projects, creative ideas or opportunities to be part of your vision</span>
+                        <span><h3 style={{ color: "#C7E113" }}>LET'S WORK TOGATHER</h3>I am always open to discussing new projects, creative ideas or opportunities to be part of your vision</span>
                     </div>
-<div className="divider"></div>
+                    <div className="divider"></div>
 
-                    <div className="social-info"></div>
+                    <div id='ic2' className="social-info">
+                        <h3 style={{ color: "#C7E113" }}>FOLLOW ME</h3>
+                        <div className="social-container">
+                            <div className="icon-circle"></div>
+                            <div className="icon-circle"></div>
+                            <div className="icon-circle"></div>
+                            <div className="icon-circle"></div>
+                        </div>
+
+                    </div>
                 </div>
 
 
