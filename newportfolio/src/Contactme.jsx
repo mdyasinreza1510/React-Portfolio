@@ -6,6 +6,8 @@ import { MailIcon } from "@animateicons/react/lucide";
 import { PhoneCallIcon } from "@animateicons/react/lucide";
 import { MapPinIcon } from "@animateicons/react/lucide";
 import { UserPlusIcon } from "@animateicons/react/lucide";
+import { RocketIcon } from "@animateicons/react/lucide";
+
 
 
 
@@ -47,42 +49,42 @@ function Contactme() {
                         <div className="main-cont-via">
 
                             <div className="contact-via">
-                                    <MailIcon className='cm-icon'
+                                <MailIcon className='cm-icon'
                                     size={40}
                                     duration={1}
                                     color="#C7E113" />
-                                    <span><h4>EMAIL</h4>aec.cse.2024mdyasinreza@gmail.com</span>
+                                <span><h4>EMAIL</h4>aec.cse.2024mdyasinreza@gmail.com</span>
 
                             </div>
 
                             <div className="contact-via">
-                                    <PhoneCallIcon className='cm-icon'
+                                <PhoneCallIcon className='cm-icon'
                                     size={40}
                                     duration={1}
                                     color="#C7E113" />
-                                    <span><h4>PHONE</h4>+91 7074307273</span>
+                                <span><h4>PHONE</h4>+91 7074307273</span>
 
                             </div>
 
                             <div className="contact-via">
-                                    <UserPlusIcon className='cm-icon'
+                                <UserPlusIcon className='cm-icon'
                                     size={40}
                                     duration={1}
                                     color="#C7E113" />
-                                    <span><h4>AVAILABILITY</h4>MON-FRI  : 9AM-6PM</span>
+                                <span><h4>AVAILABILITY</h4>MON-FRI  : 9AM-6PM</span>
 
                             </div>
 
                             <div className="contact-via">
-                                    <MapPinIcon className='cm-icon'
+                                <MapPinIcon className='cm-icon'
                                     size={40}
                                     duration={1.5}
                                     color="#C7E113" />
-                                    <span><h4>LOCATION</h4>ASANSOL , WEST BENGAL</span>
+                                <span><h4>LOCATION</h4>ASANSOL , WEST BENGAL</span>
 
                             </div>
 
-                          
+
 
                         </div>
 
@@ -98,7 +100,19 @@ function Contactme() {
 
 
 
-                <div className="footer"></div>
+                <div className="footer">
+                    <div id='ic1' className="social-info">
+                        <RocketIcon
+                            size={55}
+                            duration={1}
+                            color="#C7E113"
+                        />
+                        <span><h3 style={{color:"#C7E113"}}>LET'S WORK TOGATHER</h3>I am always open to discussing new projects, creative ideas or opportunities to be part of your vision</span>
+                    </div>
+<div className="divider"></div>
+
+                    <div className="social-info"></div>
+                </div>
 
 
             </section>
