@@ -196,7 +196,7 @@ textarea {
 
 .social-info {
     width: 50%;
-    background-color: red;
+
     height: 100%;
     border-radius: 16px;
 
@@ -222,20 +222,27 @@ textarea {
 }
 
 #ic2 {
-    padding: 10px 10px 0px 20px;
+    padding: 5px 10px 0px 20px;
 
 }
-.social-container{
+
+.social-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    background-color: green;
-    height: 55px;
+    height: 59px;
 }
-.icon-circle{
-    background-color: blue;
-    height: 50px;
-    width: 50px;
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid #C7E113;
+    height: 59px;
+    width: 59px;
     border-radius: 50%;
 }

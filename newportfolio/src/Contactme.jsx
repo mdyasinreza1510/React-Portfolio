@@ -7,6 +7,13 @@ import { PhoneCallIcon } from "@animateicons/react/lucide";
 import { MapPinIcon } from "@animateicons/react/lucide";
 import { UserPlusIcon } from "@animateicons/react/lucide";
 import { RocketIcon } from "@animateicons/react/lucide";
+import { GithubIcon } from "@animateicons/react/lucide";
+import { LinkedinIcon } from "@animateicons/react/lucide";
+import { InstagramIcon } from "@animateicons/react/lucide";
+import { TwitterIcon } from "@animateicons/react/lucide";
+
+
+
 
 
 
@@ -114,10 +121,36 @@ function Contactme() {
                     <div id='ic2' className="social-info">
                         <h3 style={{ color: "#C7E113" }}>FOLLOW ME</h3>
                         <div className="social-container">
-                            <div className="icon-circle"></div>
-                            <div className="icon-circle"></div>
-                            <div className="icon-circle"></div>
-                            <div className="icon-circle"></div>
+                            <div className="icon-circle">
+                                <a href="https://github.com/mdyasinreza1510" target='_main'><GithubIcon
+                                    size={35}
+                                    duration={1}
+                                    color="#C7E113"
+                                /></a> </div>
+
+
+                            <div className="icon-circle">
+                                <a href="https://www.linkedin.com/in/md-yasin-reza-a5a12b353/
+                               " target='_main'><LinkedinIcon
+                                    size={35}
+                                    duration={1}
+                                    color="#C7E113"
+                                /> </a>
+                            </div>
+                            <div className="icon-circle">
+                                <InstagramIcon
+                                    size={35}
+                                    duration={1}
+                                    color="#C7E113"
+                                />
+                            </div>
+                            <div className="icon-circle">
+                                <TwitterIcon
+                                    size={35}
+                                    duration={1}
+                                    color="#C7E113"
+                                />
+                            </div>
                         </div>
 
                     </div>
