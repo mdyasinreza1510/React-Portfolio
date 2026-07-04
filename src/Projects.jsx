@@ -12,6 +12,7 @@ import LOGIN from './assets/LOGIN.png'
 import rps from './assets/rps.png'
 import tic from './assets/TTT.png'
 import ElectricBorder from './Components/ElectricBorder.jsx'
+import AnimatedContent from './Components/AnimatedContent'
 
 
 function Projects() {
@@ -21,10 +22,36 @@ function Projects() {
         <div className="main-pro-cont">
           <div className="project-info">
 
-            <span id="pr1">// MY WORKS</span>
-            <span id="pr2"> <ShinyText className='PR2' text=" PROJECTS" color='#deff0a'
+            <AnimatedContent
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.4}
+            > <span id="pr1">// MY WORKS</span> </AnimatedContent>
+
+
+
+            <AnimatedContent
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0}
+            > <span id="pr2"> <ShinyText className='PR2' text=" PROJECTS" color='#deff0a'
               delay={0.5} />
-            </span>
+              </span>  </AnimatedContent>
+
 
             <span id="pr3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
             <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
