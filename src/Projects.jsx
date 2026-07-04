@@ -53,16 +53,69 @@ function Projects() {
               </span>  </AnimatedContent>
 
 
-            <span id="pr3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>
-            <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+            <AnimatedContent
+              id="pr3"
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.4}
+            ><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>   </AnimatedContent>
 
-            <div className="page-announce-p">
-              <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>10+</h3>PROJECTS </span>
-            </div>
+            <AnimatedContent
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.7}
+            > <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button> </AnimatedContent>
 
-            <div className="page-announce-p">
-              <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
-            </div>
+
+            <AnimatedContent
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.9}>
+
+              <div className="page-announce-p">
+                <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>10+</h3>PROJECTS </span>
+              </div>
+            </AnimatedContent>
+
+
+
+            <AnimatedContent
+              distance={200}
+              direction="horizontal"
+              reverse={true}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={1.1}
+            ><div className="page-announce-p">
+                <span className="pic"> <HugeiconsIcon icon={BoxIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
+              </div>  </AnimatedContent>
+
+
 
 
 
@@ -70,90 +123,136 @@ function Projects() {
 
 
           <div className="project-box">
-            <ElectricBorder
+
+
+            <AnimatedContent
+              distance={300}
+              direction="vertical"
+              reverse={false}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0}
+            >
+              <ElectricBorder
+                color="#C7E113"
+                speed={1.5}
+                chaos={0.06}
+                thickness={5}
+                style={{ borderRadius: 12 }}>
+
+                <div className="pr-box">
+                  <div className="pr-img" >
+                    <img src={cc} alt="currency converter" />
+                  </div>
+                  <div className="pr-info">
+                    <span className='textspan'>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                    </span>
+                    <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
+                    <div className="techstack">
+                      <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                  </div>
+
+                </div>
+              </ElectricBorder>
+
+            </AnimatedContent>
+
+
+
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={300}
+              direction="vertical"
+              reverse={false}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.3}
+            >
+              <ElectricBorder
+                color="#C7E113"
+                speed={1.5}
+                chaos={0.06}
+                thickness={5}
+                style={{ borderRadius: 12 }}>
+
+                <div className="pr-box">
+                  <div className="pr-img" >
+                    <img src={aniv} alt="currency converter" />
+                  </div>
+                  <div className="pr-info">
+                    <span className='textspan'>ANNIVERSARY WISHER<a className='pr-link' href="https://mdyasinreza1510.github.io/Wish_anniversary/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                    </span>
+                    <span className='prlinkinfo'>Celebrate every special moment with a beautifully designed Anniversary Wisher that delivers heartfelt wishes.</span>
+                    <div className="techstack">
+                      <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                  </div>
+
+                </div>
+              </ElectricBorder>
+            </AnimatedContent>
+
+
+
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={300}
+              direction="vertical"
+              reverse={false}
+              duration={2}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.6}
+            ><ElectricBorder
               color="#C7E113"
               speed={1.5}
               chaos={0.06}
               thickness={5}
               style={{ borderRadius: 12 }}>
 
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={cc} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <span className='textspan'>CURRENCY CONVERTER<a className='pr-link' href="https://mdyasinreza1510.github.io/currency_converter/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
-                  </span>
-                  <span className='prlinkinfo'>A responsive Currency Converter that provides real-time exchange rates using a live API.</span>
-                  <div className="techstack">
-                    <span>HTML</span><span>CSS</span><span>JS</span>
+                <div className="pr-box">
+                  <div className="pr-img" >
+                    <img src={rps} alt="currency converter" />
                   </div>
-                </div>
-
-              </div>
-            </ElectricBorder>
-
-
-
-
-
-
-
-
-
-
-            <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={aniv} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <span className='textspan'>ANNIVERSARY WISHER<a className='pr-link' href="https://mdyasinreza1510.github.io/Wish_anniversary/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
-                  </span>
-                  <span className='prlinkinfo'>Celebrate every special moment with a beautifully designed Anniversary Wisher that delivers heartfelt wishes.</span>
-                  <div className="techstack">
-                    <span>HTML</span><span>CSS</span><span>JS</span>
+                  <div className="pr-info">
+                    <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/ROCK_PAPER_SCISSOR/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
+                    </span>
+                    <span className='prlinkinfo'>Enjoy the timeless Rock Paper Scissors game with an interactive neon-themed interface, real-time score tracking,</span>
+                    <div className="techstack">
+                      <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
                   </div>
+
                 </div>
-
-              </div>
-            </ElectricBorder>
-
+              </ElectricBorder>
+            </AnimatedContent>
 
 
 
-
-
-
-
-            <ElectricBorder
-              color="#C7E113"
-              speed={1.5}
-              chaos={0.06}
-              thickness={5}
-              style={{ borderRadius: 12 }}>
-
-              <div className="pr-box">
-                <div className="pr-img" >
-                  <img src={rps} alt="currency converter" />
-                </div>
-                <div className="pr-info">
-                  <span className='textspan'>ROCK-PAPER -SCISSOR<a className='pr-link' href="https://mdyasinreza1510.github.io/ROCK_PAPER_SCISSOR/" target="_main"><FaExternalLinkAlt color='#C7E113' /> </a>
-                  </span>
-                  <span className='prlinkinfo'>Enjoy the timeless Rock Paper Scissors game with an interactive neon-themed interface, real-time score tracking,</span>
-                  <div className="techstack">
-                    <span>HTML</span><span>CSS</span><span>JS</span>
-                  </div>
-                </div>
-
-              </div>
-            </ElectricBorder>
 
 
 
