@@ -5,6 +5,7 @@ import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { WorkAlertIcon } from '@hugeicons/core-free-icons';
 import { BoxIcon } from '@hugeicons/core-free-icons'
 import { User03Icon } from '@hugeicons/core-free-icons';
+import AnimatedContent from './Components/AnimatedContent'
 
 
 function Home() {
@@ -14,9 +15,54 @@ function Home() {
 
       <div className="hero-content">
         <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span>
-        <span id='t2' className='s2'>MD</span>
-        <span id='t3' className='s2'>YASIN</span>
-        <span id='t4' className='s2'>REZA</span>
+
+        <AnimatedContent
+          distance={300}
+          direction="horizontal"
+          reverse={true}
+          duration={0.8}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={0}
+        >
+          <span id='t2' className='s2'>MD</span>
+        </AnimatedContent>
+
+
+        <AnimatedContent
+          distance={300}
+          direction="horizontal"
+          reverse={true}
+          duration={0.8}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={0.4}
+        >
+          <span id='t3' className='s2'>YASIN</span>
+        </AnimatedContent>
+
+                <AnimatedContent
+          distance={300}
+          direction="horizontal"
+          reverse={true}
+          duration={0.8}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={0.8}
+        >
+<span id='t4' className='s2'>REZA</span>
+        </AnimatedContent>
+
+        
         <span id='t5' className='s3'>Hi, I'm MD Yasin Reza, a passionate Frontend Developer and Computer Science student with a strong interest in creating modern and interactive web experiences. I enjoy turning ideas into responsive, user-friendly websites using HTML, CSS, JavaScript, and React.js. I believe in writing clean, efficient code and continuously learning new technologies to improve my skills. </span>
 
 
