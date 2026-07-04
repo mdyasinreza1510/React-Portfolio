@@ -12,6 +12,7 @@ import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { BsCCircleFill } from "react-icons/bs";
+import AnimatedContent from './Components/AnimatedContent'
 
 import './Styles/Skills.css'
 
@@ -24,8 +25,8 @@ function Skills() {
 
           <span id="sk1">// MY EXPERTIES</span>
 
-          <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a' 
-          style={{fontFamily: "Black Ops One"}} delay={0.5} />
+          <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a'
+            style={{ fontFamily: "Black Ops One" }} delay={0.5} />
           </span>
 
           <span id="sk3">I'm a passionate Frontend Developer and Computer Science student who enjoys building modern, responsive, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, React.js, and creating smooth UI/UX experiences with clean code. I love transforming ideas into interactive digital products while continuously learning new technologies and improving my skills. My goal is to craft websites that are both visually appealing and highly functional.</span>
@@ -43,147 +44,300 @@ function Skills() {
           <div className="skill-out-box">
 
 
-            <div className="skill">
 
-              <div className="box1">
-                <FaHtml5 size={50} color='#C7E113' className='skill-ic' />
-                <span><h3>HTML</h3> 85%</span>
-              </div>
 
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar"style={{"--width":"85%"}} ></div>
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.1}
+            >
+
+              <div className="skill" >
+                <div className="box1">
+                  <FaHtml5 size={50} color='#C7E113' className='skill-ic' />
+                  <span><h3>HTML</h3> 85%</span>
                 </div>
-                <span>85%</span>
-              </div>
-            </div>
-
-            <div className="skill">
-
-              <div className="box1">
-                <FaCss3Alt className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>CSS</h3> 73%</span>
-              </div>
-
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"73%"}}></div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "85%" }} ></div>
+                  </div>
+                  <span>85%</span>
                 </div>
-                <span>73%</span>
               </div>
-            </div>
+            </AnimatedContent>
 
-            <div className="skill">
 
-              <div className="box1">
-                <FaJsSquare className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>JS</h3> 60%</span>
-              </div>
 
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"60%"}}></div>
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.3}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <FaCss3Alt className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>CSS</h3> 73%</span>
                 </div>
-                <span>60%</span>
-              </div>
-            </div>
 
-
-            <div className="skill">
-
-              <div className="box1">
-                <RiReactjsFill className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>REACT</h3> 68%</span>
-              </div>
-
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"68%"}}></div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "73%" }}></div>
+                  </div>
+                  <span>73%</span>
                 </div>
-                <span>68%</span>
               </div>
-            </div>
+            </AnimatedContent>
 
 
-            <div className="skill">
 
-              <div className="box1">
-                <BsCCircleFill className='skill-ic' size={47} color='#C7E113' />
-                <span><h3>C</h3> 80%</span>
-              </div>
 
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar"style={{"--width":"80%"}}></div>
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.5}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <FaJsSquare className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>JS</h3> 60%</span>
                 </div>
-                <span>80%</span>
-              </div>
-            </div>
 
-
-            <div className="skill">
-
-              <div className="box1">
-                <TbBrandCpp 
-                
-                className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>C++</h3> 75%</span>
-              </div>
-
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar"style={{"--width":"75%"}}></div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "60%" }}></div>
+                  </div>
+                  <span>60%</span>
                 </div>
-                <span>75%</span>
               </div>
-            </div>
+            </AnimatedContent>
 
 
-            <div className="skill">
 
-              <div className="box1">
-                <FaPython className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>PYTHON</h3> 50%</span>
-              </div>
 
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"50%"}}></div>
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.7}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <RiReactjsFill className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>REACT</h3> 68%</span>
                 </div>
-                <span>50%</span>
-              </div>
-            </div>
-
-            <div className="skill">
-
-              <div className="box1">
-                <FaNodeJs className='skill-ic' size={50} color='#C7E113' />
-                <span><h3>NODE</h3> 10%</span>
-              </div>
-
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"10%"}}></div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "68%" }}></div>
+                  </div>
+                  <span>68%</span>
                 </div>
-                <span>10%</span>
               </div>
-            </div>
+            </AnimatedContent>
 
 
-            <div className="skill">
 
-              <div className="box1">
-                <SiExpress className='skill-ic' size={45} color='#C7E113' />
-                <span><h3>EXPRESS</h3> 5%</span>
-              </div>
 
-              <div className="box2">
-                <div className="bar-box">
-                  <div className="bar" style={{"--width":"5%"}}></div>
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.9}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <BsCCircleFill className='skill-ic' size={47} color='#C7E113' />
+                  <span><h3>C</h3> 80%</span>
                 </div>
-                <span>5%</span>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "80%" }}></div>
+                  </div>
+                  <span>80%</span>
+                </div>
               </div>
-            </div>
+            </AnimatedContent>
+
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={1.1}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <TbBrandCpp
+                    className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>C++</h3> 75%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "75%" }}></div>
+                  </div>
+                  <span>75%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={1.3}
+            >
+
+              <div className="skill">
+                <div className="box1">
+                  <FaPython className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>PYTHON</h3> 50%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "50%" }}></div>
+                  </div>
+                  <span>50%</span>
+                </div>
+              </div>
+
+
+            </AnimatedContent>
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={1.5}
+            >
+              <div className="skill">
+
+                <div className="box1">
+                  <FaNodeJs className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>NODE</h3> 10%</span>
+                </div>
+
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "10%" }}></div>
+                  </div>
+                  <span>10%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={0.8}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={1.7}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <SiExpress className='skill-ic' size={45} color='#C7E113' />
+                  <span><h3>EXPRESS</h3> 5%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "5%" }}></div>
+                  </div>
+                  <span>5%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+
+
+
 
 
 
