@@ -22,19 +22,91 @@ function Skills() {
     <section id="MYSkill">
       <div className="skill-main-box">
         <div className="skill-info">
+          <AnimatedContent
+            distance={200}
+            direction="horizontal"
+            reverse={true}
+            duration={2}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            scale={1}
+            threshold={0.1}
+            delay={0.4}
+          >
+            <span id="sk1">// MY EXPERTIES</span>
+          </AnimatedContent>
 
-          <span id="sk1">// MY EXPERTIES</span>
 
-          <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a'
-            style={{ fontFamily: "Black Ops One" }} delay={0.5} />
-          </span>
 
-          <span id="sk3">I'm a passionate Frontend Developer and Computer Science student who enjoys building modern, responsive, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, React.js, and creating smooth UI/UX experiences with clean code. I love transforming ideas into interactive digital products while continuously learning new technologies and improving my skills. My goal is to craft websites that are both visually appealing and highly functional.</span>
-          <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
 
-          <div className="page-announce">
-            <span className="ic"> <HugeiconsIcon icon={VisualStudioCodeIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
-          </div>
+          <AnimatedContent
+            distance={200}
+            direction="horizontal"
+            reverse={true}
+            duration={2}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            scale={1}
+            threshold={0.1}
+            delay={0}
+          >
+            <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a'
+              style={{ fontFamily: "Black Ops One" }} delay={0.5} />
+            </span>
+          </AnimatedContent>
+
+
+          <AnimatedContent
+            id="sk3"
+            distance={200}
+            direction="horizontal"
+            reverse={true}
+            duration={2}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            scale={1}
+            threshold={0.1}
+            delay={0.4}
+          >
+            <span>I'm a passionate Frontend Developer and Computer Science student who enjoys building modern, responsive, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, React.js, and creating smooth UI/UX experiences with clean code. I love transforming ideas into interactive digital products while continuously learning new technologies and improving my skills. My goal is to craft websites that are both visually appealing and highly functional.</span>
+          </AnimatedContent>
+
+
+          <AnimatedContent
+            distance={200}
+            direction="horizontal"
+            reverse={true}
+            duration={2}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            scale={1}
+            threshold={0.1}
+            delay={0.7}
+          >
+            <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+          </AnimatedContent>
+
+          <AnimatedContent
+            distance={200}
+            direction="horizontal"
+            reverse={true}
+            duration={2}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            scale={1}
+            threshold={0.1}
+            delay={1}
+          >
+            <div className="page-announce">
+              <span className="ic"> <HugeiconsIcon icon={VisualStudioCodeIcon} color='#C7E113' size={45} /></span><span><h3>2+</h3>YEARS EXPEREINCE</span>
+            </div>
+          </AnimatedContent>
+
 
 
 
@@ -51,7 +123,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -83,7 +155,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -115,7 +187,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -148,7 +220,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -178,7 +250,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -211,7 +283,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -242,7 +314,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -277,7 +349,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity
@@ -313,7 +385,7 @@ function Skills() {
               distance={100}
               direction="vertical"
               reverse={false}
-              duration={0.8}
+              duration={1.3}
               ease="power3.out"
               initialOpacity={0}
               animateOpacity

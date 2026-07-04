@@ -20,7 +20,7 @@ function Home() {
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={0.8}
+          duration={1.5}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -36,7 +36,7 @@ function Home() {
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={0.8}
+          duration={1.5}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -51,7 +51,7 @@ function Home() {
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={0.8}
+          duration={1.5}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity

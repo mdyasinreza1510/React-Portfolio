@@ -69,7 +69,6 @@
     height: auto;
     width: 350px;
     text-align: justify;
-    
     margin-bottom: 20px;
 
 }
@@ -208,7 +207,7 @@
     background-color: #C7E113;
     border-radius: 5px;
     filter:drop-shadow(0 0 10px rgba(199, 225, 19, 0.5));
-    animation: baranimation 2s ease forwards;
+    animation: baranimation 3s ease forwards;
 
 }
 
