@@ -14,7 +14,8 @@ function Home() {
     <section id='home'>
 
       <div className="hero-content">
-        <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span>
+      <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span>
+        
 
         <AnimatedContent
           distance={300}
