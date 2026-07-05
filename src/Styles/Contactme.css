@@ -196,7 +196,7 @@ textarea {
 
 .social-info {
     width: 50%;
-
+    /* background-color: blue; */
     height: 100%;
     border-radius: 16px;
 
@@ -222,7 +222,7 @@ textarea {
 }
 
 #ic2 {
-    padding: 5px 10px 0px 20px;
+    padding: 9px 10px 0px 20px;
 
 }
 
