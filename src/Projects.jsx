@@ -65,7 +65,8 @@ function Projects() {
               scale={1}
               threshold={0.1}
               delay={0.4}
-            ><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam obcaecati iure distinctio voluptate veritatis esse molestias mod</span>   </AnimatedContent>
+            ><span >
+              </span>I love building modern, responsive, and interactive web applications. I pay close attention to clean code, performance, and user experience. Every project is an opportunity for me to learn, improve, and create something meaningfu   </AnimatedContent>
 
             <AnimatedContent
               distance={200}
@@ -78,7 +79,7 @@ function Projects() {
               scale={1}
               threshold={0.1}
               delay={0.7}
-            > <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button> </AnimatedContent>
+            > <button className="pagebutton ">ALL MY WORKS<FaExternalLinkAlt icon={ArrowDown03Icon} className='iconss' size={15} color='#C7E113' strokeWidth={2.5} /></button> </AnimatedContent>
 
 
             <AnimatedContent

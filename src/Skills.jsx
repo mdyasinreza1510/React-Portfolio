@@ -18,6 +18,10 @@ import './Styles/Skills.css'
 
 
 function Skills() {
+function senderror(){
+    alert("CV IS NOT AVAILABLE RIGHT NOW!!")
+  }
+
   return (
     <section id="MYSkill">
       <div className="skill-main-box">
@@ -87,7 +91,8 @@ function Skills() {
             threshold={0.1}
             delay={0.7}
           >
-            <button className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+            <button onClick={senderror} 
+            className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
           </AnimatedContent>
 
           <AnimatedContent
