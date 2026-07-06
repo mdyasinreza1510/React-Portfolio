@@ -14,14 +14,27 @@ function Home() {
     <section id='home'>
 
       <div className="hero-content">
-      <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span>
-        
+
+        <AnimatedContent
+          distance={100}
+          direction="vertical"
+          reverse={true}
+          duration={2}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={0}
+        > <span id='t1' className='s1'>/// HELLO, WELCOME TO MY PORTFOLIO</span></AnimatedContent>
+
+
 
         <AnimatedContent
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={1.5}
+          duration={2}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -37,7 +50,7 @@ function Home() {
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={1.5}
+          duration={2}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -48,11 +61,11 @@ function Home() {
           <span id='t3' className='s2'>YASIN</span>
         </AnimatedContent>
 
-                <AnimatedContent
+        <AnimatedContent
           distance={300}
           direction="horizontal"
           reverse={true}
-          duration={1.5}
+          duration={2}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -60,17 +73,49 @@ function Home() {
           threshold={0.1}
           delay={0.8}
         >
-<span id='t4' className='s2'>REZA</span>
+          <span id='t4' className='s2'>REZA</span>
         </AnimatedContent>
 
-        
-        <span id='t5' className='s3'>Hi, I'm MD Yasin Reza, a passionate Frontend Developer and Computer Science student with a strong interest in creating modern and interactive web experiences. I enjoy turning ideas into responsive, user-friendly websites using HTML, CSS, JavaScript, and React.js. I believe in writing clean, efficient code and continuously learning new technologies to improve my skills. </span>
+        <AnimatedContent
+          id='t5'
+          className='s3'
+          distance={170}
+          direction="vertical"
+          reverse={false}
+          duration={2}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={0}
+        > <span>Hi, I'm MD Yasin Reza, a passionate Frontend Developer and Computer Science student with a strong interest in creating modern and interactive web experiences. I enjoy turning ideas into responsive, user-friendly websites using HTML, CSS, JavaScript, and React.js. I believe in writing clean, efficient code and continuously learning new technologies to improve my skills. </span> </AnimatedContent>
 
 
-        <div className="herobutton">
-          <button className='hbtn'>My Work <HugeiconsIcon className='iconss' icon={WorkAlertIcon} color='#C7E113' size={20} strokeWidth={2.5} /></button>
-          <button className='hbtn'>Download CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
-        </div>
+
+        <AnimatedContent
+          distance={100}
+          direction="horizontal"
+          reverse={true}
+          duration={2}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1}
+          threshold={0.1}
+          delay={1.5}
+        >
+          <div className="herobutton">
+
+            <button className='hbtn'>My Work<HugeiconsIcon className='iconss' icon={WorkAlertIcon} color='#C7E113' size={20} strokeWidth={2.5} /></button>
+
+
+
+            <button className='hbtn'>Download CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+
+          </div>
+        </AnimatedContent>
+
 
 
       </div>
