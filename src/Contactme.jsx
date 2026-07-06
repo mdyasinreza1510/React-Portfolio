@@ -12,15 +12,20 @@ import { LinkedinIcon } from "@animateicons/react/lucide";
 import { InstagramIcon } from "@animateicons/react/lucide";
 import { TwitterIcon } from "@animateicons/react/lucide";
 import AnimatedContent from './Components/AnimatedContent'
-
-
-
-
-
-
+import { useRef } from 'react';
 
 
 function Contactme() {
+    const clearname= useRef(null);
+    const clearemail= useRef(null);
+    const clearmsg= useRef(null);
+
+    function handleinputs(){
+        clearname.current.value=" ";
+        clearemail.current.value=" ";
+        clearmsg.current.value=" "
+    }
+
     return (
         <>
             <section id="contactme">
@@ -95,13 +100,13 @@ function Contactme() {
                         <div>
                             <div className='cm2'><LuMessageSquareMore size={30} color='#deff0a' /><h3>SEND ME A MESSEGE</h3></div>
                             <div className='inp-box'>
-                                <input type="text" placeholder='Your Name' />
-                                <input type="email" placeholder='Your Email' />
+                                <input ref={clearname} type="text" placeholder='Your Name' />
+                                <input ref={clearemail} type="email" placeholder='Your Email' />
                             </div>
 
-                            <textarea placeholder='Your Message' id=""></textarea>
+                            <textarea ref={clearmsg} placeholder='Your Message'></textarea>
 
-                            <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24} /></button>
+                            <button onClick={handleinputs} className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24} /></button>
                         </div> </AnimatedContent>
 
 
