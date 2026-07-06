@@ -11,6 +11,7 @@ import { GithubIcon } from "@animateicons/react/lucide";
 import { LinkedinIcon } from "@animateicons/react/lucide";
 import { InstagramIcon } from "@animateicons/react/lucide";
 import { TwitterIcon } from "@animateicons/react/lucide";
+import AnimatedContent from './Components/AnimatedContent'
 
 
 
@@ -24,79 +25,151 @@ function Contactme() {
         <>
             <section id="contactme">
                 <div className="headings">
-                    <span className='head'><ShinyText className='cm1' text="CONTACT " color='#deff0a'
-                        delay={0.5}
-                    />
-                        <ShinyText className='cm1' text="ME" color='white'
-                            delay={0.5} /></span>
 
-                    <span>LET'S CONNECT AND CREATE SOMETHING AMAZING TOGETHER</span>
+
+
+                    <span className='head'>
+                        <AnimatedContent
+                            distance={300}
+                            direction="horizontal"
+                            reverse={true}
+                            duration={2.5}
+                            ease="power3.out"
+                            initialOpacity={0}
+                            animateOpacity
+                            scale={1}
+                            threshold={0.1}
+                            delay={0}>
+
+                            <ShinyText className='cm1' text="CONTACT " color='#deff0a'
+                                delay={0.5}
+                            />
+                        </AnimatedContent>
+
+                        <AnimatedContent
+                            distance={300}
+                            direction="horizontal"
+                            reverse={false}
+                            duration={2.5}
+                            ease="power3.out"
+                            initialOpacity={0}
+                            animateOpacity
+                            scale={1}
+                            threshold={0.1}
+                            delay={0}><ShinyText className='cm1' text="ME" color='white'
+                                delay={0.5} />
+
+                        </AnimatedContent>
+                    </span>
+
+
+
+                    <AnimatedContent
+                        distance={50}
+                        direction="vertical"
+                        reverse={false}
+                        duration={2}
+                        ease="power3.out"
+                        initialOpacity={0}
+                        animateOpacity
+                        scale={1}
+                        threshold={0.1}
+                        delay={0}>
+                        <span>LET'S CONNECT AND CREATE SOMETHING AMAZING TOGETHER</span>  </AnimatedContent>
+
                 </div>
                 <div className="cm-main-box">
-                    <div className="b1">
-                        <div className='cm2'><LuMessageSquareMore size={30} color='#deff0a' /><h3>SEND ME A MESSEGE</h3></div>
-                        <div className='inp-box'>
-                            <input type="text" placeholder='Your Name' />
-                            <input type="email" placeholder='Your Email' />
+
+                    <AnimatedContent
+                        className="b1"
+                        distance={300}
+                        direction="horizontal"
+                        reverse={true}
+                        duration={2}
+                        ease="power3.out"
+                        initialOpacity={0}
+                        animateOpacity
+                        scale={1}
+                        threshold={0.1}
+                        delay={0.5}>
+                        <div>
+                            <div className='cm2'><LuMessageSquareMore size={30} color='#deff0a' /><h3>SEND ME A MESSEGE</h3></div>
+                            <div className='inp-box'>
+                                <input type="text" placeholder='Your Name' />
+                                <input type="email" placeholder='Your Email' />
+                            </div>
+
+                            <textarea placeholder='Your Message' id=""></textarea>
+
+                            <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24} /></button>
+                        </div> </AnimatedContent>
+
+
+
+
+
+
+
+                    <AnimatedContent
+                        id="B2"
+                        distance={300}
+                        direction="horizontal"
+                        reverse={false}
+                        duration={2}
+                        ease="power3.out"
+                        initialOpacity={0}
+                        animateOpacity
+                        scale={1}
+                        threshold={0.1}
+                        delay={0.5}>
+                        <div className="b2">
+                            <h3>GET IN TOUCH</h3>
+                            <div className="main-cont-via">
+
+                                <div className="contact-via">
+                                    <MailIcon className='cm-icon'
+                                        size={40}
+                                        duration={1}
+                                        color="#C7E113" />
+                                    <span><h4>EMAIL</h4>aec.cse.2024mdyasinreza@gmail.com</span>
+
+                                </div>
+
+                                <div className="contact-via">
+                                    <PhoneCallIcon className='cm-icon'
+                                        size={40}
+                                        duration={1}
+                                        color="#C7E113" />
+                                    <span><h4>PHONE</h4>+91 7074307273</span>
+
+                                </div>
+
+                                <div className="contact-via">
+                                    <UserPlusIcon className='cm-icon'
+                                        size={40}
+                                        duration={1}
+                                        color="#C7E113" />
+                                    <span><h4>AVAILABILITY</h4>MON-FRI  : 9AM-6PM</span>
+
+                                </div>
+
+                                <div className="contact-via">
+                                    <MapPinIcon className='cm-icon'
+                                        size={40}
+                                        duration={1.5}
+                                        color="#C7E113" />
+                                    <span><h4>LOCATION</h4>ASANSOL , WEST BENGAL</span>
+
+                                </div>
+
+
+
+                            </div>
+
+
                         </div>
+                    </AnimatedContent>
 
-                        <textarea placeholder='Your Message' id=""></textarea>
-
-                        <button className='cmbtn'>SEND MESSAGE <IoPaperPlaneOutline size={24} /></button>
-                    </div>
-
-
-
-
-
-
-
-                    <div className="b2">
-                        <h3>GET IN TOUCH</h3>
-                        <div className="main-cont-via">
-
-                            <div className="contact-via">
-                                <MailIcon className='cm-icon'
-                                    size={40}
-                                    duration={1}
-                                    color="#C7E113" />
-                                <span><h4>EMAIL</h4>aec.cse.2024mdyasinreza@gmail.com</span>
-
-                            </div>
-
-                            <div className="contact-via">
-                                <PhoneCallIcon className='cm-icon'
-                                    size={40}
-                                    duration={1}
-                                    color="#C7E113" />
-                                <span><h4>PHONE</h4>+91 7074307273</span>
-
-                            </div>
-
-                            <div className="contact-via">
-                                <UserPlusIcon className='cm-icon'
-                                    size={40}
-                                    duration={1}
-                                    color="#C7E113" />
-                                <span><h4>AVAILABILITY</h4>MON-FRI  : 9AM-6PM</span>
-
-                            </div>
-
-                            <div className="contact-via">
-                                <MapPinIcon className='cm-icon'
-                                    size={40}
-                                    duration={1.5}
-                                    color="#C7E113" />
-                                <span><h4>LOCATION</h4>ASANSOL , WEST BENGAL</span>
-
-                            </div>
-
-
-
-                        </div>
-
-
-                    </div>
                 </div>
 
 
@@ -106,8 +179,9 @@ function Contactme() {
 
 
 
-
-                <div className="footer">
+                
+                        
+                    <div className="footer">
                     <div id='ic1' className="social-info">
                         <RocketIcon
                             size={55}
@@ -132,10 +206,10 @@ function Contactme() {
                             <div className="icon-circle">
                                 <a href="https://www.linkedin.com/in/md-yasin-reza-a5a12b353/
                                " target='_main'><LinkedinIcon
-                                    size={35}
-                                    duration={1}
-                                    color="#C7E113"
-                                /> </a>
+                                        size={35}
+                                        duration={1}
+                                        color="#C7E113"
+                                    /> </a>
                             </div>
                             <div className="icon-circle">
                                 <InstagramIcon
@@ -155,6 +229,8 @@ function Contactme() {
 
                     </div>
                 </div>
+    
+                
 
 
             </section>

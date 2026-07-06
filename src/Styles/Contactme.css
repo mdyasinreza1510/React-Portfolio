@@ -39,7 +39,7 @@
 
 .cm-main-box {
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,9 +140,22 @@ textarea {
     color: WHITE;
     background-color: green;
     height: 100%;
-    width: 40%;
+    width: 100%;
     padding: 18px;
     border: 2px solid #C7E113;
+    border-radius: 16px;
+    background: none;
+    backdrop-filter: blur(5px);
+    flex: 1;
+}
+#B2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: WHITE;
+    background-color: green;
+    height: 100%;
+    width: 40%;
     border-radius: 16px;
     background: none;
     backdrop-filter: blur(5px);
