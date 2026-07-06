@@ -17,6 +17,7 @@ import AnimatedContent from './Components/AnimatedContent'
 
 
 function Projects() {
+  
   return (
     <>
       <section id="myprojects">
