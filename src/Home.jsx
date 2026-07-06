@@ -9,6 +9,11 @@ import AnimatedContent from './Components/AnimatedContent'
 
 
 function Home() {
+
+  function senderror(){
+    alert("CV IS NOT AVAILABLE RIGHT NOW!!")
+  }
+
   return (
 
     <section id='home'>
@@ -111,7 +116,8 @@ function Home() {
 
 
 
-            <button className='hbtn'>Download CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+            <button onClick={senderror}
+             className='hbtn'>Download CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5}/></button>
 
           </div>
         </AnimatedContent>
