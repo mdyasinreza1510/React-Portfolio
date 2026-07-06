@@ -5,6 +5,7 @@ import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
 import { BoxIcon } from '@hugeicons/core-free-icons'
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { Share05Icon } from '@hugeicons/core-free-icons';
 import aniv from './assets/aniv.png'
 import bmi from './assets/bmi.png'
 import cc from './assets/cc.png'
@@ -79,7 +80,9 @@ function Projects() {
               scale={1}
               threshold={0.1}
               delay={0.7}
-            > <button className="pagebutton ">ALL MY WORKS<FaExternalLinkAlt icon={ArrowDown03Icon} className='iconss' size={15} color='#C7E113' strokeWidth={2.5} /></button> </AnimatedContent>
+            > <button className="pagebutton ">ALL MY WORKS<HugeiconsIcon icon={Share05Icon} 
+            size={23}/>
+            </button> </AnimatedContent>
 
 
             <AnimatedContent
