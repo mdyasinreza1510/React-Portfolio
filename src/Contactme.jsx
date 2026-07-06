@@ -16,14 +16,16 @@ import { useRef } from 'react';
 
 
 function Contactme() {
-    const clearname= useRef(null);
-    const clearemail= useRef(null);
-    const clearmsg= useRef(null);
+    const clearname = useRef(null);
+    const clearemail = useRef(null);
+    const clearmsg = useRef(null);
 
-    function handleinputs(){
-        clearname.current.value=" ";
-        clearemail.current.value=" ";
-        clearmsg.current.value=" "
+    function handleinputs() {
+        alert("MESSEGE SENT 🎉")
+        clearname.current.value = "";
+        clearemail.current.value = "";
+        clearmsg.current.value = "";
+
     }
 
     return (
@@ -184,9 +186,9 @@ function Contactme() {
 
 
 
-                
-                        
-                    <div className="footer">
+
+
+                <div className="footer">
                     <div id='ic1' className="social-info">
                         <RocketIcon
                             size={55}
@@ -234,8 +236,8 @@ function Contactme() {
 
                     </div>
                 </div>
-    
-                
+
+
 
 
             </section>
