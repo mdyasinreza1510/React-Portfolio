@@ -3,7 +3,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="heading"><ShinyText className='nav-name' text="MD YASIN REZA" color='#c5e113d5'/></div>
+                <span className="heading"><ShinyText className='nav-name' text="MD YASIN REZA" color='#c5e113d5'/></span>
                 <div className="link_container">
                     <a href="#home">HOME</a>
 

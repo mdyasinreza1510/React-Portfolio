@@ -38,11 +38,6 @@ section {
   z-index: 1000;
 }
 
-.navbar h3 {
-  color: #38bdf8;
-  margin-left: 2.5rem;
-  font-size: larger;
-}
 
 .link_container {
 
@@ -66,6 +61,7 @@ section {
 }
 .nav-name{
     font-family: "Black Ops One";
+    
     
     
 }
@@ -219,7 +215,101 @@ section {
 }
 
 
+@media (max-width:768px){
 
+  html,body{
+    overflow-x:hidden;
+  }
 
+  section{
+    padding:15px;
+  }
 
+  /* Navbar */
 
+  .navbar{
+    width:100%;
+    left:50%;
+    transform:translateX(-50%);
+    margin-left:0;
+    margin-top:10px;
+    padding:15px;
+    height:60px;
+    border-radius:18px;
+  }
+
+  .nav-name{
+    font-size: 10px;
+    
+  }
+
+  .link_container{
+    width:auto;
+    gap:15px;
+  }
+
+  .navbar a{
+    font-size:.8rem;
+  }
+
+  /* Hero */
+
+  #home{
+    background-position:center;
+  }
+
+  .hero-content{
+    width:100%;
+    top:12%;
+    padding:25px 15px;
+    align-items:flex-start;
+  }
+
+  .s1{
+    width:100%;
+    justify-content:flex-start;
+    font-size:.9rem;
+  }
+
+  .s2{
+    width:100%;
+    height:auto;
+    font-size:3rem;
+    line-height:1.1;
+  }
+
+  .s3{
+    width:100%;
+    font-size:.95rem;
+  }
+
+  #t4{
+    width:100%;
+  }
+
+  .herobutton{
+    width:100%;
+    flex-direction:column;
+    gap:15px;
+    height:auto;
+  }
+
+  .hbtn{
+    width:100%;
+    height:50px;
+  }
+
+  .minihero{
+    height:auto;
+    padding:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .miniwrapper{
+    width:170px;
+    height:60px;
+    padding:10px;
+  }
+
+}

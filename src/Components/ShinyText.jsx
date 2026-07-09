@@ -6,7 +6,7 @@ const ShinyText = ({
   text,
   disabled = false,
   speed = 2,
-  className = '',
+  className ='',
   color = '#b5b5b5',
   shineColor = '#ffffff',
   spread = 120,
