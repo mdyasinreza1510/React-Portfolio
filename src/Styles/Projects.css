@@ -29,7 +29,7 @@
 }
 
 .project-box {
-    /* background-color: red; */
+
     scroll-behavior: smooth;
     margin-top: 60px;
     margin-left: 10px;
@@ -43,7 +43,7 @@
     overflow-y: hidden;
     scrollbar-width: none;
     gap: 15px;
-    height: 70%;
+    height: 78%;
     width: 63%;
 }
 
