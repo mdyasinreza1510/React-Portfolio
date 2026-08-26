@@ -3,9 +3,10 @@ import { HugeiconsIcon } from '@hugeicons/react';
 import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
 import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { WorkAlertIcon } from '@hugeicons/core-free-icons';
-import { BoxIcon } from '@hugeicons/core-free-icons'
+import { BoxIcon } from '@hugeicons/core-free-icons';
 import { User03Icon } from '@hugeicons/core-free-icons';
-import AnimatedContent from './Components/AnimatedContent'
+import AnimatedContent from './Components/AnimatedContent';
+import herome from '../src/assets/heroMe.png'
 
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
 
     <section id='home'>
 
-      <div className="hero-content">
+      {/* <div className="hero-content">
 
         <AnimatedContent
           distance={100}
@@ -124,6 +125,10 @@ function Home() {
 
 
 
+      </div> */}
+
+      <div className="hero-image-container">
+        <img src={herome} alt="" />
       </div>
 
       <div className="minihero">

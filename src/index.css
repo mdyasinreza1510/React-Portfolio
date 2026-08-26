@@ -59,22 +59,29 @@ section {
 
 
 }
-.nav-name{
-    font-family: "Black Ops One";
-    
-    
-    
+
+.nav-name {
+  font-family: "Black Ops One";
+
+
+
 }
 
 
 
 #home {
+  position: relative;
   margin: 0;
   padding: 0px;
   width: 100%;
   min-height: 100vh;
   color: white;
-  background-image: url(assets/herobg.png);
+
+    background:
+    radial-gradient(circle at 20% 20%, rgba(157, 107, 255, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 75%, rgba(107, 66, 190, 0.16), transparent 50%),
+    #100a1c;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
@@ -215,101 +222,102 @@ section {
 }
 
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-  html,body{
-    overflow-x:hidden;
+  html,
+  body {
+    overflow-x: hidden;
   }
 
-  section{
-    padding:15px;
+  section {
+    padding: 15px;
   }
 
   /* Navbar */
 
-  .navbar{
-    width:100%;
-    left:50%;
-    transform:translateX(-50%);
-    margin-left:0;
-    margin-top:10px;
-    padding:15px;
-    height:60px;
-    border-radius:18px;
+  .navbar {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 15px;
+    height: 60px;
+    border-radius: 18px;
   }
 
-  .nav-name{
+  .nav-name {
     font-size: 10px;
-    
+
   }
 
-  .link_container{
-    width:auto;
-    gap:15px;
+  .link_container {
+    width: auto;
+    gap: 15px;
   }
 
-  .navbar a{
-    font-size:.8rem;
+  .navbar a {
+    font-size: .8rem;
   }
 
   /* Hero */
 
-  #home{
-    background-position:center;
+  #home {
+    background-position: center;
   }
 
-  .hero-content{
-    width:100%;
-    top:12%;
-    padding:25px 15px;
-    align-items:flex-start;
+  .hero-content {
+    width: 100%;
+    top: 12%;
+    padding: 25px 15px;
+    align-items: flex-start;
   }
 
-  .s1{
-    width:100%;
-    justify-content:flex-start;
-    font-size:.9rem;
+  .s1 {
+    width: 100%;
+    justify-content: flex-start;
+    font-size: .9rem;
   }
 
-  .s2{
-    width:100%;
-    height:auto;
-    font-size:3rem;
-    line-height:1.1;
+  .s2 {
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    line-height: 1.1;
   }
 
-  .s3{
-    width:100%;
-    font-size:.95rem;
+  .s3 {
+    width: 100%;
+    font-size: .95rem;
   }
 
-  #t4{
-    width:100%;
+  #t4 {
+    width: 100%;
   }
 
-  .herobutton{
-    width:100%;
-    flex-direction:column;
-    gap:15px;
-    height:auto;
+  .herobutton {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
   }
 
-  .hbtn{
-    width:100%;
-    height:50px;
+  .hbtn {
+    width: 100%;
+    height: 50px;
   }
 
-  .minihero{
-    height:auto;
-    padding:15px;
-    flex-wrap:wrap;
-    justify-content:center;
+  .minihero {
+    height: auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .miniwrapper{
-    width:170px;
-    height:60px;
-    padding:10px;
+  .miniwrapper {
+    width: 170px;
+    height: 60px;
+    padding: 10px;
   }
 
 }
