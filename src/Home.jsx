@@ -7,11 +7,13 @@ import { BoxIcon } from '@hugeicons/core-free-icons';
 import { User03Icon } from '@hugeicons/core-free-icons';
 import AnimatedContent from './Components/AnimatedContent';
 import herome from '../src/assets/heroMe.png'
+import WarpText from './Components/WarpText.jsx';
+import StrokeText from './Components/StrokeText';
 
 
 function Home() {
 
-  function senderror(){
+  function senderror() {
     alert("CV IS NOT AVAILABLE RIGHT NOW!!")
   }
 
@@ -126,10 +128,60 @@ function Home() {
 
 
       </div> */}
+      <label className='surname'><StrokeText
+        text="MD"
+        strokeColor="#bdbdc0"
+        fillColor="#F8FAFC"
+        strokeWidth={1.4}
+        drawDuration={1.6}
+        fillDelay={0.2}
+        stagger={0.05}
+        ease="sine.inOut"
+        trigger="mount"
+        fillMode="none"
+        fontSize={38}
+        fontWeight={800}
+        letterSpacing={4}
+        reverse={false}
+      /></label>
+
+
+      <div className='myname'>
+        <WarpText
+          className='nametext'
+          text="YA SIN"
+          color="white"
+          warpStrength={0.08}
+          warpScale={1.7}
+          speed={0.55}
+          pointerInfluence={0.42}
+          pointerStrength={0.38}
+          refraction={0.018}
+          ripple
+          fontSize={400}
+          fontWeight={800}
+          style={{
+            height: "400px",
+            width: "100%",
+            transform: "translate(40px,5px)"
+
+
+          }}
+          fontFamily="inherit"
+          letterSpacing={90}
+          lineHeight={0.9}
+        />
+      </div>
+
 
       <div className="hero-image-container">
-        <img src={herome} alt="" />
+        <img className='hero-img' src={herome} alt="" />
+
       </div>
+
+
+
+
 
       <div className="minihero">
         <div className="miniwrapper">
