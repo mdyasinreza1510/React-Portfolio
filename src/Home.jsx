@@ -128,23 +128,6 @@ function Home() {
 
 
       </div> */}
-      <label className='surname'><StrokeText
-        text="MD"
-        strokeColor="#bdbdc0"
-        fillColor="#F8FAFC"
-        strokeWidth={1.4}
-        drawDuration={1.6}
-        fillDelay={0.2}
-        stagger={0.05}
-        ease="sine.inOut"
-        trigger="mount"
-        fillMode="none"
-        fontSize={38}
-        fontWeight={800}
-        letterSpacing={4}
-        reverse={false}
-      /></label>
-
 
       <div className='myname'>
         <WarpText
@@ -184,7 +167,7 @@ function Home() {
 
 
       <div className="minihero">
-        <div className="miniwrapper">
+        {/* <div className="miniwrapper">
           <HugeiconsIcon icon={VisualStudioCodeIcon} color='#C7E113' size={40} />
           <span><h3>2+</h3>YEARS EXP</span></div>
         <div className="miniwrapper">
@@ -204,7 +187,7 @@ function Home() {
             strokeWidth={1.5}
           />
           <span><h3>5+</h3>HAPPY CLIENTS</span>
-        </div>
+        </div> */}
 
 
       </div>
