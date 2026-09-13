@@ -1,6 +1,6 @@
 
 import { HugeiconsIcon } from '@hugeicons/react';
-import { VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
+import { AlignCenter, VisualStudioCodeIcon } from '@hugeicons/core-free-icons';
 import { ArrowDown03Icon } from '@hugeicons/core-free-icons';
 import { WorkAlertIcon } from '@hugeicons/core-free-icons';
 import { BoxIcon } from '@hugeicons/core-free-icons';
@@ -8,7 +8,9 @@ import { User03Icon } from '@hugeicons/core-free-icons';
 import AnimatedContent from './Components/AnimatedContent';
 import herome from '../src/assets/heroMe.png'
 import WarpText from './Components/WarpText.jsx';
-import StrokeText from './Components/StrokeText';
+import DotField from './Components/DotField';
+
+
 
 
 function Home() {
@@ -20,6 +22,24 @@ function Home() {
   return (
 
     <section id='home'>
+      
+
+<div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+  <DotField
+    dotRadius={1.5}
+    dotSpacing={14}
+    bulgeStrength={67}
+    glowRadius={160}
+   
+    waveAmplitude={0}
+    cursorRadius={500}
+    cursorForce={0.1}
+    bulgeOnly
+    gradientFrom="#A855F7"
+    gradientTo="#B497CF"
+    glowColor="#120F17"
+/>
+</div>
 
       {/* <div className="hero-content">
 
@@ -129,16 +149,17 @@ function Home() {
 
       </div> */}
 
+
       <div className='myname'>
         <WarpText
           className='nametext'
           text="YA SIN"
           color="white"
-          warpStrength={0.08}
+          warpStrength={0.1}
           warpScale={1.7}
-          speed={0.55}
-          pointerInfluence={0.42}
-          pointerStrength={0.38}
+          speed={0.5}
+          pointerInfluence={7}
+          pointerStrength={1}
           refraction={0.018}
           ripple
           fontSize={400}
@@ -146,7 +167,7 @@ function Home() {
           style={{
             height: "400px",
             width: "100%",
-            transform: "translate(40px,5px)"
+            transform: "translate(45px,5px)"
 
 
           }}
@@ -160,7 +181,7 @@ function Home() {
       <div className="hero-image-container">
         <img className='hero-img' src={herome} alt="" />
 
-      </div>
+        {/* </div>
 
 
 
