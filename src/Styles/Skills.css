@@ -5,8 +5,8 @@
     /* background-image: url(../assets/skillbg.png); */
     
     
-    background-color: #000000;
-    background-image: radial-gradient(circle at 50% 50%, #282828 0%, #000000 50%);
+    background-color: #0a0a0a;
+    /* background-image: radial-gradient(circle at 50% 50%, #282828 0%, #000000 50%); */
 
 
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
     /* background-color: blue; */
     width: 100%;
     margin-top: 40px;
-    color: white;
+    color: WHITE;
     display: flex;
     justify-content: start;
     align-items: center;

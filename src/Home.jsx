@@ -35,7 +35,7 @@ function Home() {
     cursorRadius={500}
     cursorForce={0.1}
     bulgeOnly
-    gradientFrom="#A855F7"
+    gradientFrom="#f0ebf4"
     gradientTo="#B497CF"
     glowColor="#120F17"
 />
