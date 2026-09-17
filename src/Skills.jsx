@@ -56,7 +56,7 @@ function senderror(){
             threshold={0.1}
             delay={0}
           >
-            <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#deff0a'
+            <span id="sk2"> <ShinyText className='SK2' text=" SKILLS" color='#c558e3'
               style={{ fontFamily: "Black Ops One" }} delay={0.5} />
             </span>
           </AnimatedContent>
@@ -117,14 +117,151 @@ function senderror(){
 
         </div>
         <div className="true-skills">
-          <div className="my-skill-text">// TECHNICAL SKILLS</div>
+          <div className="my-skill-text">// programming Languages</div>
           <div className="skill-out-box">
+
+
+           
+
+
+
+
+
+            
 
 
 
 
 
             <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={1.3}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.1}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <BsCCircleFill className='skill-ic' size={47} color='#C7E113' />
+                  <span><h3>C</h3> 80%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "80%" }}></div>
+                  </div>
+                  <span>80%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+
+
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={1.3}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.3}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <TbBrandCpp
+                    className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>C++</h3> 75%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "75%" }}></div>
+                  </div>
+                  <span>75%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+
+
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={1.3}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.5}
+            >
+
+              <div className="skill">
+                <div className="box1">
+                  <FaPython className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>PYTHON</h3> 50%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "50%" }}></div>
+                  </div>
+                  <span>50%</span>
+                </div>
+              </div>
+
+
+            </AnimatedContent>
+
+
+            <AnimatedContent
+              distance={100}
+              direction="vertical"
+              reverse={false}
+              duration={1.3}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={1}
+              threshold={0.1}
+              delay={0.7}
+            >
+              <div className="skill">
+                <div className="box1">
+                  <RiReactjsFill className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>JAVA</h3> 55%</span>
+                </div>
+                <div className="box2">
+                  <div className="bar-box">
+                    <div className="bar" style={{ "--width": "55%" }}></div>
+                  </div>
+                  <span>55%</span>
+                </div>
+              </div>
+            </AnimatedContent>
+
+            
+
+{/* ---------------------------------------------------------------------------2nd section---------------------------------------------------------------------------*/}
+
+
+
+
+            <div className="my-skill-text">// Technical Skills</div>
+             <AnimatedContent
               distance={100}
               direction="vertical"
               reverse={false}
@@ -150,9 +287,6 @@ function senderror(){
                 </div>
               </div>
             </AnimatedContent>
-
-
-
 
 
 
@@ -251,6 +385,12 @@ function senderror(){
 
 
 
+
+
+
+
+
+
             <AnimatedContent
               distance={100}
               direction="vertical"
@@ -265,19 +405,17 @@ function senderror(){
             >
               <div className="skill">
                 <div className="box1">
-                  <BsCCircleFill className='skill-ic' size={47} color='#C7E113' />
-                  <span><h3>C</h3> 80%</span>
+                  <RiReactjsFill className='skill-ic' size={50} color='#C7E113' />
+                  <span><h3>TAILWIND</h3> 68%</span>
                 </div>
                 <div className="box2">
                   <div className="bar-box">
-                    <div className="bar" style={{ "--width": "80%" }}></div>
+                    <div className="bar" style={{ "--width": "60%" }}></div>
                   </div>
-                  <span>80%</span>
+                  <span>60%</span>
                 </div>
               </div>
             </AnimatedContent>
-
-
 
 
 
@@ -295,72 +433,6 @@ function senderror(){
               scale={1}
               threshold={0.1}
               delay={1.1}
-            >
-              <div className="skill">
-                <div className="box1">
-                  <TbBrandCpp
-                    className='skill-ic' size={50} color='#C7E113' />
-                  <span><h3>C++</h3> 75%</span>
-                </div>
-                <div className="box2">
-                  <div className="bar-box">
-                    <div className="bar" style={{ "--width": "75%" }}></div>
-                  </div>
-                  <span>75%</span>
-                </div>
-              </div>
-            </AnimatedContent>
-
-
-
-
-
-            <AnimatedContent
-              distance={100}
-              direction="vertical"
-              reverse={false}
-              duration={1.3}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={1}
-              threshold={0.1}
-              delay={1.3}
-            >
-
-              <div className="skill">
-                <div className="box1">
-                  <FaPython className='skill-ic' size={50} color='#C7E113' />
-                  <span><h3>PYTHON</h3> 50%</span>
-                </div>
-                <div className="box2">
-                  <div className="bar-box">
-                    <div className="bar" style={{ "--width": "50%" }}></div>
-                  </div>
-                  <span>50%</span>
-                </div>
-              </div>
-
-
-            </AnimatedContent>
-
-
-
-
-
-
-
-            <AnimatedContent
-              distance={100}
-              direction="vertical"
-              reverse={false}
-              duration={1.3}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={1}
-              threshold={0.1}
-              delay={1.5}
             >
               <div className="skill">
 
@@ -396,7 +468,7 @@ function senderror(){
               animateOpacity
               scale={1}
               threshold={0.1}
-              delay={1.7}
+              delay={1.3}
             >
               <div className="skill">
                 <div className="box1">
@@ -411,6 +483,7 @@ function senderror(){
                 </div>
               </div>
             </AnimatedContent>
+
 
 
 

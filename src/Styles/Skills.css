@@ -18,8 +18,8 @@
     /* background-color: blue; */
     position: absolute;
     bottom: 0;
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 85%;
     /* background-color: red; */
 }
 
@@ -28,8 +28,8 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* background-color: rgba(255, 0, 0, 0.147); */
-    width: 40%;
+    /* background-color: rgb(255, 0, 0); */
+    width: 30%;
     height: 100%;
     padding: 0px 10px 0px 35px;
 }
@@ -132,10 +132,11 @@
 
 
 .true-skills {
-    /* background-color: white; */
+    box-sizing: border-box;
+
     width: 70%;
     height: 100%;
-    padding: 0px 19px 0px 0px;
+    padding: 20px 10px 0px 0px;
 
 }
 
@@ -145,25 +146,30 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-top: 37px;
     /* background-color: green; */
     width: 100%;
     font-weight: 650;
     word-spacing: 2px;
+    margin: 10px 0px 10px 0px;
 }
 
 .skill-out-box {
+    box-sizing: border-box;
+    padding: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    align-content: flex-start;
     flex-wrap: wrap;
     /* background-color: rgb(0, 0, 255); */
-
-    height: 65%;
+    height: 100%;
     gap: 10px;
+    overflow: visible;
+   
 }
 
 .skill {
+    position: relative;
+    z-index: 1;
     backdrop-filter: blur(3px);
     box-sizing: border-box;
     display: flex;
@@ -176,8 +182,21 @@
     width: 200px;
     border-radius: 13px;
 
+   
+}
+.skill:hover{
+     animation: hardShake 0.25s ease-in-out;
+
 }
 
+@keyframes hardShake {
+  0%   { transform: scale(1.03) translateX(0); }
+  20%  { transform: scale(1.03) translateX(-6px); }
+  40%  { transform: scale(1.03) translateX(6px); }
+  60%  { transform: scale(1.03) translateX(-5px); }
+  80%  { transform: scale(1.03) translateX(4px); }
+  100% { transform: scale(1.03) translateX(0); }
+}
 .box1 {
     display: flex;
     align-items: center;
