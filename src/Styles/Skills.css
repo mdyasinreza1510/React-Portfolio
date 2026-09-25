@@ -151,6 +151,18 @@
     font-weight: 650;
     word-spacing: 2px;
     margin: 10px 0px 10px 0px;
+    opacity: 0;
+
+    animation: fade 1s 2s ease forwards,
+     hardShake 0.25s  2s ease-in-out forwards;
+}
+
+@keyframes fade {
+    
+    to{
+        opacity: 1;
+    }
+    
 }
 
 .skill-out-box {
