@@ -2,6 +2,19 @@ import { useEffect, useRef } from 'react';
 import { Renderer, Program, Mesh, Triangle, Texture } from 'ogl';
 import './WarpText.css';
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 const vertex = `#version 300 es
 in vec2 position;
 in vec2 uv;

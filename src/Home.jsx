@@ -12,37 +12,61 @@ import WarpText from './Components/WarpText.jsx';
 import DotField from './Components/DotField';
 
 
+import { useState, useEffect } from 'react';
+
+function useMediaQuery(query) {
+  const [matches, setMatches] = useState(
+    () => window.matchMedia(query).matches
+  );
+  useEffect(() => {
+    const mql = window.matchMedia(query);
+    const handler = (e) => setMatches(e.matches);
+    mql.addEventListener('change', handler);
+    return () => mql.removeEventListener('change', handler);
+  }, [query]);
+  return matches;
+}
+
+
+
+
 
 
 function Home() {
+
+
+
 
   function senderror() {
     alert("CV IS NOT AVAILABLE RIGHT NOW!!")
   }
 
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   return (
 
-    <section id='home'>   
+    <section id='home'>
 
-<div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-  <DotField
-    dotRadius={1.3}
-    dotSpacing={14}
-    bulgeStrength={40}
-    glowRadius={160}
-   
-    waveAmplitude={1}
-    cursorRadius={500}
-    cursorForce={0.1}
-    bulgeOnly
-    gradientFrom="#ececf2"
-    gradientTo="#B497CF"
-    glowColor="#f8f8f900"
-/>
-</div>
+      <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <DotField
+          dotRadius={1.3}
+          dotSpacing={14}
+          bulgeStrength={40}
+          glowRadius={160}
 
-  
+          waveAmplitude={1}
+          cursorRadius={500}
+          cursorForce={0.1}
+          bulgeOnly
+          gradientFrom="#ececf2"
+          gradientTo="#B497CF"
+          glowColor="#f8f8f900"
+        />
+      </div>
+
+
       <div className='myname'>
+
         <WarpText
           className='nametext'
           text="YA SIN"
@@ -54,18 +78,15 @@ function Home() {
           pointerStrength={1}
           refraction={0.018}
           ripple
-          fontSize={400}
+          fontSize={isMobile ? 300 : 400}
           fontWeight={800}
           style={{
-            height: "400px",
+            height: isMobile ? "200px" : "400px",
             width: "100%",
-            transform: "translate(45px,5px)"
-
-
+            transform: isMobile ? "translate(0px,0px)" : "translate(45px,5px)",
           }}
           fontFamily="inherit"
-          letterSpacing={90}
-          lineHeight={0.9}
+          letterSpacing={isMobile ? 50 : 90} lineHeight={0.9}
         />
       </div>
 

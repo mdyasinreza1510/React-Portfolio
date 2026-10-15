@@ -107,7 +107,6 @@ section {
 }
 
 .hero-image-container {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,219 +161,105 @@ section {
 
 }
 
-.s1 {
-  color: #C7E113;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 310px;
-  word-spacing: 2px;
-  margin: 0px 0px 15px 0px;
-  /* background-color: blue; */
-}
-
-.s2 {
-  display: flex;
-  align-items: center;
-
-  /* background-color: green; */
-  text-align: justify;
-  font-size: 5.5rem;
-  font-family: "Black Ops One", system-ui;
-  font-weight: 100;
-  font-style: normal;
-  height: 65px;
-  width: 400px;
-  margin-top: 15px;
-
-}
-
-.s3 {
-  color: rgb(182, 182, 182);
-  margin: 20px 0px 30px 0px;
-  text-align: justify;
-  /* background-color: blue; */
-  width: 350px;
-}
-
-.herobutton {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 40px;
-  width: 400px;
-
-}
-
-.hbtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 19px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: white;
-  background-color: transparent;
-  height: 100%;
-  width: 47%;
-  border: 2px solid #C7E113;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-}
-
-.hbtn:hover {
-  color: black;
-  background-color: #C7E113;
-
-}
-
-#t3 {
-  color: #C7E113;
-}
-
-#t4 {
-  width: 600px;
-}
-
-.iconss {
-  color: #C7E113;
-}
-
-.hbtn:hover .iconss {
-  color: black;
-  transition: all 0.5s ease;
-
-}
-
-
-
-
-.minihero {
-  background-image: linear-gradient(180deg, #9e9e9e00 0%, #000000 80%, #000000 99%);
-  position: absolute;
-
-  bottom: 0;
-
-  width: 100%;
-  height: 110px;
-  padding: 0px 30px 0px 30px;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-  align-items: center;
-
-
-}
-
-.miniwrapper {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  padding: 0px 45px 0px 45px;
-  justify-content: space-evenly;
-  /* background-color: red; */
-  height: 65px;
-  width: 250px;
-  border-radius: 15px;
-}
-
-
-@media (max-width:768px) {
-
-  html,
-  body {
-    overflow-x: hidden;
-  }
-
-  section {
-    padding: 15px;
-  }
-
-  /* Navbar */
-
+/* Tablets and below */
+@media (max-width: 768px) {
   .navbar {
+    margin: 0;
+    left: 0;
+    top: 0;
     width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: 0;
-    margin-top: 10px;
-    padding: 15px;
-    height: 60px;
-    border-radius: 18px;
-  }
-
-  .nav-name {
-    font-size: 10px;
-
+    height: 3.5rem;
+    padding: 10px 16px;
+    border-radius: 0 0 20px 20px;
   }
 
   .link_container {
     width: auto;
-    gap: 15px;
+    gap: 16px;
   }
 
   .navbar a {
-    font-size: .8rem;
+    font-size: 0.9rem;
   }
 
-  /* Hero */
-
   #home {
-    background-position: center;
+    min-height: 100svh;
+  }
+
+  .myname {
+
+    top: 22%;
+    height: auto;
+    text-align: center;
+    transform: translateY(100px);
+  }
+
+  /* scale your name text with the screen */
+  .myname h1,
+  .myname {
+    font-size: clamp(2.5rem, 14vw, 5rem);
+    line-height: 1;
+  }
+
+  .hero-image-container {
+    height: 60vh;
+    width: 100%;
+    max-height: 550px;
+    top: auto;
+    bottom: 0;
+
+  }
+
+  .hero-img {
+    height: 150%;
+    max-width: 200vw;
+    bottom: 0;
+
   }
 
   .hero-content {
     width: 100%;
-    top: 12%;
-    padding: 25px 15px;
-    align-items: flex-start;
-  }
-
-  .s1 {
-    width: 100%;
-    justify-content: flex-start;
-    font-size: .9rem;
-  }
-
-  .s2 {
-    width: 100%;
     height: auto;
-    font-size: 3rem;
-    line-height: 1.1;
+    top: 0;
+    padding: 90px 16px 0;
+    align-items: center;
+    font-size: 0.95rem;
   }
 
-  .s3 {
-    width: 100%;
-    font-size: .95rem;
+  @keyframes fadeupp {
+    from {
+      opacity: 0;
+      transform: translateY(150px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .navbar {
+    height: 3.2rem;
+    padding: 8px 12px;
   }
 
-  #t4 {
-    width: 100%;
+  .link_container {
+    gap: 10px;
   }
 
-  .herobutton {
-    width: 100%;
-    flex-direction: column;
-    gap: 15px;
-    height: auto;
+  .navbar a {
+    font-size: 0.8rem;
   }
 
-  .hbtn {
-    width: 100%;
-    height: 50px;
+  .hero-image-container {
+    height: 55vh;
   }
 
-  .minihero {
-    height: auto;
-    padding: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+  .hero-content {
+    font-size: 0.85rem;
+    padding-top: 80px;
   }
-
-  .miniwrapper {
-    width: 170px;
-    height: 60px;
-    padding: 10px;
-  }
-
 }
