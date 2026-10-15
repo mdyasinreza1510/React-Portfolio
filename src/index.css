@@ -44,7 +44,10 @@ section {
 .link_container {
 
   width: 500px;
+  height: 2rem;
+  font-size: larger;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -161,25 +164,40 @@ section {
 
 }
 
-/* Tablets and below */
+
+
+
+
+
+/*........................................................................................................................................................................*/
+
+
+
+
 @media (max-width: 768px) {
   .navbar {
     margin: 0;
-    left: 0;
-    top: 0;
+    left: 0;;
     width: 100%;
     height: 3.5rem;
     padding: 10px 16px;
     border-radius: 0 0 20px 20px;
   }
 
-  .link_container {
-    width: auto;
-    gap: 16px;
+  .heading {
+    display: none;
   }
 
-  .navbar a {
-    font-size: 0.9rem;
+  .link_container {
+   
+    width: 100%;
+    height: 2rem;
+  }
+
+  .navbar a{
+    font-size: larger;
+    font-weight: 800;
+   
   }
 
   #home {
@@ -188,7 +206,7 @@ section {
 
   .myname {
 
-    top: 22%;
+    top: 20%;
     height: auto;
     text-align: center;
     transform: translateY(100px);

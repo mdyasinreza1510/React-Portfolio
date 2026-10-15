@@ -69,7 +69,7 @@ function Home() {
 
         <WarpText
           className='nametext'
-          text="YA SIN"
+          text={isMobile?"YASIN":"YA SIN"}
           color="white"
           warpStrength={0.1}
           warpScale={1.7}
