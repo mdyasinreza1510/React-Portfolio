@@ -7,9 +7,8 @@ import { BoxIcon } from '@hugeicons/core-free-icons';
 import { User03Icon } from '@hugeicons/core-free-icons';
 import AnimatedContent from './Components/AnimatedContent';
 import herome from '../src/assets/heroMe.png'
-
 import WarpText from './Components/WarpText.jsx';
-import DotField from './Components/DotField';
+import PatternWave from './Components/PatternWave';
 
 
 import { useState, useEffect } from 'react';
@@ -47,22 +46,33 @@ function Home() {
 
     <section id='home'>
 
-      <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-        <DotField
-          dotRadius={1.3}
-          dotSpacing={14}
-          bulgeStrength={40}
-          glowRadius={160}
-
-          waveAmplitude={1}
-          cursorRadius={500}
-          cursorForce={0.1}
-          bulgeOnly
-          gradientFrom="#ececf2"
-          gradientTo="#B497CF"
-          glowColor="#f8f8f900"
-        />
-      </div>
+     <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+  <PatternWave
+    preset="silk"
+    color="#ffffff"
+    backgroundColor="#0a0a0a"
+    fade="edges"
+    interactive={true}
+    cursorSize={50}
+    cursorStrength={0.3}
+    pattern="dot"
+    wave="silk"
+    spacing={9}
+    markSize={0.95}
+    depth={0.95}
+    light={0}
+    shine={0.8}
+    contrast={1.2}
+    speed={0.35}
+    scale={1}
+    direction={20}
+    opacity={1}
+    fadeSize={0.5}
+    characters=".:-=+*#%@"
+    intro
+    paused={false}
+/>
+</div>
 
 
       <div className='myname'>

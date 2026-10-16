@@ -13,6 +13,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { BsCCircleFill } from "react-icons/bs";
 import AnimatedContent from './Components/AnimatedContent'
+import PatternWave from './Components/PatternWave';
+
 
 import './Styles/Skills.css'
 
@@ -24,6 +26,41 @@ function senderror(){
 
   return (
     <section id="MYSkill">
+
+
+<div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+  <PatternWave
+    preset="silk"
+    color="#ffffff"
+    backgroundColor="#0a0a0a"
+    fade="edges"
+    interactive={false}
+    cursorSize={50}
+    cursorStrength={0.6}
+    pattern="dot"
+    wave="silk"
+    spacing={9}
+    markSize={0.95}
+    depth={0.95}
+    light={0}
+    shine={0.8}
+    contrast={1.2}
+    speed={0.35}
+    scale={1}
+    direction={20}
+    opacity={1}
+    fadeSize={0.5}
+    characters=".:-=+*#%@"
+    intro
+    paused={false}
+/>
+</div>
+     
+
+
+
+
+
       <div className="skill-main-box">
         <div className="skill-info">
           <AnimatedContent
