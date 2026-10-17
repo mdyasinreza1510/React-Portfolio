@@ -13,14 +13,13 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { BsCCircleFill } from "react-icons/bs";
 import AnimatedContent from './Components/AnimatedContent'
-import PatternWave from './Components/PatternWave';
 
 
 import './Styles/Skills.css'
 
 
 function Skills() {
-function senderror(){
+  function senderror() {
     alert("CV IS NOT AVAILABLE RIGHT NOW!!")
   }
 
@@ -28,34 +27,11 @@ function senderror(){
     <section id="MYSkill">
 
 
-<div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-  <PatternWave
-    preset="silk"
-    color="#ffffff"
-    backgroundColor="#0a0a0a"
-    fade="edges"
-    interactive={false}
-    cursorSize={50}
-    cursorStrength={0.6}
-    pattern="dot"
-    wave="silk"
-    spacing={9}
-    markSize={0.95}
-    depth={0.95}
-    light={0}
-    shine={0.8}
-    contrast={1.2}
-    speed={0.35}
-    scale={1}
-    direction={20}
-    opacity={1}
-    fadeSize={0.5}
-    characters=".:-=+*#%@"
-    intro
-    paused={false}
-/>
-</div>
-     
+<div className="blurbg">he</div>
+
+    
+
+
 
 
 
@@ -128,8 +104,8 @@ function senderror(){
             threshold={0.1}
             delay={0.7}
           >
-            <button onClick={senderror} 
-            className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
+            <button onClick={senderror}
+              className="pagebutton ">DOWNLOAD CV <HugeiconsIcon icon={ArrowDown03Icon} className='iconss' size={20} color='#C7E113' strokeWidth={2.5} /></button>
           </AnimatedContent>
 
           <AnimatedContent
@@ -154,17 +130,17 @@ function senderror(){
 
         </div>
         <div className="true-skills">
-          <div className="my-skill-text">// programming Languages</div>
+          <div className="my-skill-text" style={{ paddingInline: "10px" }}>// programming Languages</div>
           <div className="skill-out-box">
 
 
-           
 
 
 
 
 
-            
+
+
 
 
 
@@ -290,15 +266,15 @@ function senderror(){
               </div>
             </AnimatedContent>
 
-            
 
-{/* ---------------------------------------------------------------------------2nd section---------------------------------------------------------------------------*/}
+
+            {/* ---------------------------------------------------------------------------2nd section---------------------------------------------------------------------------*/}
 
 
 
 
             <div className="my-skill-text">// Technical Skills</div>
-             <AnimatedContent
+            <AnimatedContent
               distance={100}
               direction="vertical"
               reverse={false}

@@ -46,40 +46,40 @@ function Home() {
 
     <section id='home'>
 
-     <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-  <PatternWave
-    preset="silk"
-    color="#ffffff"
-    backgroundColor="#0a0a0a"
-    fade="edges"
-    interactive={true}
-    cursorSize={50}
-    cursorStrength={0.3}
-    pattern="dot"
-    wave="silk"
-    spacing={9}
-    markSize={0.95}
-    depth={0.95}
-    light={0}
-    shine={0.8}
-    contrast={1.2}
-    speed={0.35}
-    scale={1}
-    direction={20}
-    opacity={1}
-    fadeSize={0.5}
-    characters=".:-=+*#%@"
-    intro
-    paused={false}
-/>
-</div>
+      <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <PatternWave
+          preset="silk"
+          color="#ffffff"
+          backgroundColor="#0a0a0a"
+          fade="edges"
+          interactive={true}
+          cursorSize={50}
+          cursorStrength={0.3}
+          pattern="dot"
+          wave="silk"
+          spacing={9}
+          markSize={0.95}
+          depth={0.95}
+          light={0}
+          shine={0.8}
+          contrast={1.2}
+          speed={0.35}
+          scale={1}
+          direction={20}
+          opacity={1}
+          fadeSize={0.5}
+          characters=".:-=+*#%@"
+          intro
+          paused={false}
+        />
+      </div>
 
 
       <div className='myname'>
 
         <WarpText
           className='nametext'
-          text={isMobile?"YASIN":"YA SIN"}
+          text={isMobile ? "YASIN" : "YA SIN"}
           color="white"
           warpStrength={0.1}
           warpScale={1.7}
