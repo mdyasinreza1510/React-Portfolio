@@ -203,3 +203,179 @@
     margin-top: 8px;
 }
 
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #myprojects {
+        height: auto;
+        min-height: 100vh;
+        padding: 110px 0 48px; /* clears your fixed navbar */
+        overflow-x: hidden;
+    }
+
+    .main-pro-cont {
+        position: static;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    /* ---------- Left info block ---------- */
+    .project-info {
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+        gap: 0;
+    }
+
+    #pr1 {
+        margin-top: 0;
+        font-size: 13px;
+        letter-spacing: 2px;
+        color: #C7E113;
+    }
+
+    #pr2 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0 0;
+    }
+
+    .PR2 {
+        font-size: 3.9rem;
+        line-height: 1;
+    }
+
+    #pr3 {
+        width: 100%;
+        margin: 18px 0 22px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 1.65;
+        color: #a8a8ad;
+    }
+
+    /* Stats: put both cards inside one wrapper (see notes) */
+    .stats-row {
+        display: flex;
+        gap: 12px;
+    }
+
+    .stats-row > * {
+        flex: 1;
+        box-sizing: border-box;
+        padding: 14px 16px;
+        border: 1px solid #2a2a2a;
+        background: #121212;
+        border-radius: 16px;
+    }
+
+    /* ALL MY WORKS button */
+    .page-announce-p {
+        width: 100%;
+        height: 52px;
+        margin-top: 12px;
+        justify-content: center;
+        background: #C7E113;
+        color: #0a0a0a;
+        font-weight: 700;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 26px;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .page-announce-p .pic {
+        margin-top: 0;
+        filter: brightness(0); /* makes the icon black on the lime button */
+    }
+
+    /* ---------- Swipe carousel ---------- */
+    .project-box {
+        width: 100%;
+        height: auto;
+        margin: 28px 0 0;
+        padding: 0 20px 8px;
+        gap: 14px;
+        justify-content: flex-start;
+        align-items: stretch;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 20px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pr-box {
+        width: 300px;
+        height: auto;
+        padding: 12px;
+        gap: 16px;
+        box-sizing: border-box;
+        background: #121212;
+        border: 1px solid #2a2a2a;
+        border-radius: 24px;
+        scroll-snap-align: start;
+    }
+
+    .pr-box:first-child {
+        border-color: rgba(199, 225, 19, 0.45);
+        box-shadow: 0 0 28px rgba(199, 225, 19, 0.12);
+    }
+
+    .pr-img {
+        height: 200px;
+        border-radius: 16px;
+    }
+
+    .pr-img img {
+        object-fit: cover;
+    }
+
+    .pr-info {
+        height: auto;
+        text-align: left;
+    }
+
+    .textspan {
+        margin-top: 0;
+        padding: 0 4px;
+        font-size: 16px;
+    }
+
+    .prlinkinfo {
+        height: auto;
+        margin-top: 6px;
+        padding: 0 4px;
+        font-size: 13.5px;
+        line-height: 1.55;
+        color: #a8a8ad;
+    }
+
+    .techstack {
+        justify-content: flex-start;
+        gap: 8px;
+        height: auto;
+        margin-top: 16px;
+        padding: 0 4px;
+    }
+
+    .techstack span {
+        width: auto;
+        height: auto;
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: 700;
+        background: #0a0a0a;
+        border: 1px solid #3a4200;
+        border-radius: 10px;
+    }
+}
