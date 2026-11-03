@@ -213,18 +213,21 @@
 
 @media (max-width: 768px) {
     #myprojects {
-        height: auto;
+        position: relative;
+        height: 100vh;
         min-height: 100vh;
-        padding: 110px 0 48px; /* clears your fixed navbar */
+        padding: 80px 0 48px 0; /* clears your fixed navbar */
         overflow-x: hidden;
     }
 
     .main-pro-cont {
-        position: static;
+        position: absolute;
+        bottom: 0;
+
         flex-direction: column;
         width: 100%;
-        height: auto;
-        padding: 0;
+        height: 92%;
+        padding:0;
     }
 
     /* ---------- Left info block ---------- */
@@ -236,6 +239,7 @@
     }
 
     #pr1 {
+        display: none;
         margin-top: 0;
         font-size: 13px;
         letter-spacing: 2px;
@@ -243,13 +247,17 @@
     }
 
     #pr2 {
+        align-items: center;
+        justify-content: center;
+        
         width: 100%;
         height: auto;
-        margin: 10px 0 0;
+        margin: 0 0 0;
     }
 
     .PR2 {
-        font-size: 3.9rem;
+   
+        font-size: 4.5rem;
         line-height: 1;
     }
 
@@ -262,7 +270,7 @@
         color: #a8a8ad;
     }
 
-    /* Stats: put both cards inside one wrapper (see notes) */
+
     .stats-row {
         display: flex;
         gap: 12px;
@@ -283,6 +291,7 @@
         height: 52px;
         margin-top: 12px;
         justify-content: center;
+        align-items: center;
         background: #C7E113;
         color: #0a0a0a;
         font-weight: 700;
@@ -290,33 +299,32 @@
         border: none;
         border-radius: 26px;
         box-sizing: border-box;
-        padding: 0;
+    
     }
 
     .page-announce-p .pic {
         margin-top: 0;
-        filter: brightness(0); /* makes the icon black on the lime button */
+        filter: brightness(0);
     }
 
     /* ---------- Swipe carousel ---------- */
     .project-box {
-        width: 100%;
-        height: auto;
-        margin: 28px 0 0;
-        padding: 0 20px 8px;
-        gap: 14px;
+        box-sizing: border-box;
+        width: 100%;    
+        height: 100%;
+        margin: 48px 0 0;
+        padding: 0px 0px 20px 8px;
+        gap: 15px;
         justify-content: flex-start;
-        align-items: stretch;
+        align-items: center;
         overflow-x: auto;
         overflow-y: hidden;
-        scroll-snap-type: x mandatory;
-        scroll-padding: 0 20px;
         -webkit-overflow-scrolling: touch;
     }
 
     .pr-box {
         width: 300px;
-        height: auto;
+
         padding: 12px;
         gap: 16px;
         box-sizing: border-box;
