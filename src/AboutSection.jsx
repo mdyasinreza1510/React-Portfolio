@@ -8,9 +8,9 @@ const AboutSection = () => {
       {/* Heading */}
       <p className="about__label">01. ABOUT ME</p>
       <h2 className="about__title">
-        The Force Behind
+        GREAT POWER COMES WITH
         <br />
-        The Craft<span className="about__title-accent">Creative Mind</span>
+        GREAT<span className="about__title-accent">RESPONSIBILITES</span>
       </h2>
 
       <div className="about__grid">
@@ -23,7 +23,7 @@ const AboutSection = () => {
 
           <div className="about__stats">
             <div className="about__stat">
-              <span className="about__stat-number">6+</span>
+              <span className="about__stat-number">2+</span>
               <span className="about__stat-text">
                 Years of
                 <br />
@@ -31,7 +31,7 @@ const AboutSection = () => {
               </span>
             </div>
             <div className="about__stat">
-              <span className="about__stat-number">40+</span>
+              <span className="about__stat-number">10+</span>
               <span className="about__stat-text">
                 Completed
                 <br />
