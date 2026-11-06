@@ -189,6 +189,7 @@
 /* ---------- Right ---------- */
 
 .about__side {
+  height: 90%;
   padding-left: 2vw;
   border-left: 1px solid #3a3a3a;
   display: flex;
