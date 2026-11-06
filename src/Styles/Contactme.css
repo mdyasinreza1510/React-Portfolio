@@ -410,7 +410,7 @@ textarea {
     }
 
     .contact-via {
-  
+
         height: auto;
         margin: 0;
         padding: 14px 0;
@@ -426,17 +426,8 @@ textarea {
         padding-bottom: 0;
     }
 
-    /* icon tile: the first child (svg/img/i) of each row */
-    .contact-via > :first-child {
-        flex: 0 0 48px;
-        width: 48px;
-        height: 48px;
-        box-sizing: border-box;
-        padding: 12px;
-        border: 1px solid #3a4200;
-        border-radius: 14px;
-        background: #0a0a0a;
-    }
+
+
 
     /* ---------- Let's work together + Follow me ---------- */
     .footer {

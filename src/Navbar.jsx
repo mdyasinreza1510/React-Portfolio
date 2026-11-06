@@ -6,7 +6,7 @@ function Navbar() {
                 <span className="heading"><ShinyText className='nav-name' text="MD YASIN REZA" color='#c5e113d5' /></span>
                 <div className="link_container">
                     <a href="#home">HOME</a>
-
+                    <a href="#about">ABOUT</a>
                     <a href="#MYSkill">SKILLS</a>
                     <a href="#myprojects">PROJECTS</a>
                     <a href="#contactme">CONTACT ME</a>
