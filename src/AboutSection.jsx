@@ -10,7 +10,7 @@ const AboutSection = () => {
       <h2 className="about__title">
         GREAT POWER COMES WITH
         <br />
-        GREAT<span className="about__title-accent">RESPONSIBILITES</span>
+        GREAT<span className="about__title-accent">Responsibilities</span>
       </h2>
 
       <div className="about__grid">
